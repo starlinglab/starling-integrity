@@ -1,0 +1,33 @@
+{
+    "vendor": "starlinglab",
+    "recorder": "{{recorder}}",
+    "assertions": [
+        {
+            "label": "stds.schema-org.CreativeWork",
+            "data": {
+                "@context": "https://schema.org",
+                "@type": "CreativeWork",
+                "author": [
+                    {
+                        "@type": "{{author_type}}",
+                        "credential": [
+                        ],
+                        "identifier": "{{author_identifier}}",
+                        "name": "{{author_name}}"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "c2pa.actions",
+            "data": {
+                "actions": [
+                    {
+                        "action": "c2pa.edited",
+                        "when": "{{asset_edited_timestamp}}"
+                    }
+                ]
+            }
+        }
+    ]
+}

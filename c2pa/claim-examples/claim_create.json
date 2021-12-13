@@ -1,0 +1,98 @@
+{
+    "vendor": "starlinglab",
+    "recorder": "Starling Capture",
+    "assertions": [
+        {
+            "label": "stds.schema-org.CreativeWork",
+            "data": {
+                "@context": "https://schema.org",
+                "@type": "CreativeWork",
+                "author": [
+                    {
+                        "@type": "Person",
+                        "credential": [
+                        ],
+                        "identifier": "https://hypha.coop",
+                        "name": "Benedict Lau"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "c2pa.actions",
+            "data": {
+                "actions": [
+                    {
+                        "action": "c2pa.created",
+                        "when": "2021-12-10T12:08:20.440259822+00:00"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "stds.exif",
+            "data": {
+                "@context": {
+                    "exif": "http://ns.adobe.com/exif/1.0/"
+                },
+                "exif:GPSLatitude": "22/1 16/1 380219916977963/8796093022208",
+                "exif:GPSLatitudeRef": "N",
+                "exif:GPSLongitude": "114/1 10/1 4036351166030807/70368744177664",
+                "exif:GPSLongitudeRef": "E",
+                "exif:GPSTimeStamp": "2021:12:10 11:23:40 +0000"
+            }
+        },
+        {
+            "label": "stds.iptc.photo-metadata",
+            "data": {
+                "@context": {
+                    "Iptc4xmpExt": "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+                    "dc" : "http://purl.org/dc/elements/1.1/"
+                },
+                "dc:creator": [
+                    "Benedict Lau"
+                ],
+                "dc:rights": "Copyright (C) 2021 Hypha Worker Co-operative. All Rights Reserved.",
+                "Iptc4xmpExt:LocationCreated": {
+                    "Iptc4xmpExt:CountryCode": "cn",
+                    "Iptc4xmpExt:CountryName": "中国",
+                    "Iptc4xmpExt:ProviceState": "香港 Hong Kong"
+                }
+            }
+        },
+        {
+            "label": "org.starlinglab.integrity",
+            "data": {
+                "starling:identifier": "109213b0e49d5eba0ebd679a9e87d33eebd8dc47255ae5043022f512052f0f9b",
+                "starling:signatures": [
+                    {
+                        "starling:provider": "AndroidOpenSSL",
+                        "starling:algorithm": "numbers-AndroidOpenSSL",
+                        "starling:publicKey": "3059301306072a8648ce3d020106082a8648ce3d0301070342000463760bc21e0f0d2fa4186c67f06e866fa075fc50a28fa9330299ac9f3b31af87ffa06aca9749085a6da162b1b685a4deeba93fecfae94c7706d55e370384cb91",
+                        "starling:signature": "304502200e57c4795f3a674b334332089a50ecf02dad72d5b9297db55bf67e3454f79289022100a927f5cfb7728c9b9650102f076f956918953dc3cbd0ab51f6dc1bbf7a6dceb5",
+                        "starling:authenticatedMessage": "109213b0e49d5eba0ebd679a9e87d33eebd8dc47255ae5043022f512052f0f9b",
+                        "starling:authenticatedMessageDescription": "Internal identifier of the authenticated bundle",
+                        "starling:authenticatedMessagePublic": {
+                            "starling:assetHash": "109213b0e49d5eba0ebd679a9e87d33eebd8dc47255ae5043022f512052f0f9b",
+                            "starling:assetMimeType": "image/jpeg",
+                            "starling:assetCreatedTimestamp": "2021-12-10T12:08:20.440259822+00:00"
+                        }
+                    },
+                    {
+                        "starling:provider": "Zion",
+                        "starling:algorithm": "numbers-AndroidOpenSSL",
+                        "starling:publicKey": "Session:\n3059301306072a8648ce3d020106082a8648ce3d0301070342000405ec1b30b3de4c902d72f36d229a5004fcf1549d84bcc6a69eea8ea1079d350ca51b2f38403126bae55fbc528c58c6c249e6e2137aa6426008275b3c27819f76\n\nReceive:\n02e82c5c55f377c87399cb2d272f5e5859ed0310111807635a0cf58fb3e52f6524\n\nSend:\n02e82c5c55f377c87399cb2d272f5e5859ed0310111807635a0cf58fb3e52f6524",
+                        "starling:signature": "3045022100e2fc3bb9ca1f18aeff3c6d424b69cf6ce243f1aa594b3c609c0395c687f795ae022049b31956302fc5750aa645f0f5d03a1d3c67b49216090cfcf2dc3833e8af2dab",
+                        "starling:authenticatedMessage": "109213b0e49d5eba0ebd679a9e87d33eebd8dc47255ae5043022f512052f0f9b",
+                        "starling:authenticatedMessageDescription": "Internal identifier of the authenticated bundle",
+                        "starling:authenticatedMessagePublic": {
+                            "starling:assetHash": "109213b0e49d5eba0ebd679a9e87d33eebd8dc47255ae5043022f512052f0f9b",
+                            "starling:assetMimeType": "image/jpeg",
+                            "starling:assetCreatedTimestamp": "2021-12-10T12:08:20.440259822+00:00"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

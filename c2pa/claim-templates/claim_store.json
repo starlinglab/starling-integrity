@@ -1,0 +1,41 @@
+{
+    "vendor": "starlinglab",
+    "recorder": "{{recorder}}",
+    "assertions": [
+        {
+            "label": "stds.schema-org.CreativeWork",
+            "data": {
+                "@context": "https://schema.org",
+                "@type": "CreativeWork",
+                "author": [
+                    {
+                        "@type": "{{author_type}}",
+                        "credential": [
+                        ],
+                        "identifier": "{{author_identifier}}",
+                        "name": "{{author_name}}"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "c2pa.actions",
+            "data": {
+                "actions": [
+                    {
+                        "action": "c2pa.saved",
+                        "when": "{{asset_stored_timestamp}}"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "org.starlinglab.storage.ipfs",
+            "data": {
+                "starling:provider": "{{ipfs_provider}}",
+                "starling:ipfsCID": "{{ipfs_cid}}",
+                "starling:assetStoredTimestamp": "{{asset_stored_timestamp}}"
+            }
+        }
+    ]
+}
