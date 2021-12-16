@@ -14,6 +14,12 @@
                         ],
                         "identifier": "https://hypha.coop",
                         "name": "Benedict Lau"
+                    },
+                    {
+                        "@id": "https://twitter.com/HyphaCoop",
+                        "@type": "Organization",
+                        "identifier": "https://hypha.coop",
+                        "name": "Hypha Worker Co-operative"
                     }
                 ]
             }
@@ -80,7 +86,7 @@
                     },
                     {
                         "starling:provider": "Zion",
-                        "starling:algorithm": "numbers-AndroidOpenSSL",
+                        "starling:algorithm": "numbers-Zion",
                         "starling:publicKey": "Session:\n3059301306072a8648ce3d020106082a8648ce3d0301070342000405ec1b30b3de4c902d72f36d229a5004fcf1549d84bcc6a69eea8ea1079d350ca51b2f38403126bae55fbc528c58c6c249e6e2137aa6426008275b3c27819f76\n\nReceive:\n02e82c5c55f377c87399cb2d272f5e5859ed0310111807635a0cf58fb3e52f6524\n\nSend:\n02e82c5c55f377c87399cb2d272f5e5859ed0310111807635a0cf58fb3e52f6524",
                         "starling:signature": "3045022100e2fc3bb9ca1f18aeff3c6d424b69cf6ce243f1aa594b3c609c0395c687f795ae022049b31956302fc5750aa645f0f5d03a1d3c67b49216090cfcf2dc3833e8af2dab",
                         "starling:authenticatedMessage": "109213b0e49d5eba0ebd679a9e87d33eebd8dc47255ae5043022f512052f0f9b",

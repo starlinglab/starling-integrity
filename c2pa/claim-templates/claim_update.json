@@ -14,6 +14,12 @@
                         ],
                         "identifier": "{{author_identifier}}",
                         "name": "{{author_name}}"
+                    },
+                    {
+                        "@id": "https://twitter.com/{{twitter_handle}}",
+                        "@type": "{{twitter_type}}",
+                        "identifier": "{{twitter_identifier}}",
+                        "name": "{{twitter_name}}"
                     }
                 ]
             }
