@@ -1,0 +1,39 @@
+{
+    "vendor": "starlinglab",
+    "recorder": "Starling Integrity",
+    "assertions": [
+        {
+            "label": "stds.schema-org.CreativeWork",
+            "data": {
+                "@context": "https://schema.org",
+                "@type": "CreativeWork",
+                "author": [
+                    {
+                        "@type": "Organization",
+                        "credential": [
+                        ],
+                        "identifier": "https://scmp.com",
+                        "name": "South China Morning Post"
+                    },
+                    {
+                        "@id": "https://twitter.com/SCMPNews",
+                        "@type": "Organization",
+                        "identifier": "https://scmp.com",
+                        "name": "South China Morning Post"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "c2pa.actions",
+            "data": {
+                "actions": [
+                    {
+                        "action": "c2pa.unknown",
+                        "when": "2021-12-10T12:08:20.440259822+00:00"
+                    }
+                ]
+            }
+        }
+    ]
+}
