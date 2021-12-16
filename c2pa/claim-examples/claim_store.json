@@ -14,6 +14,19 @@
                         ],
                         "identifier": "https://starlinglab.org",
                         "name": "Starling Lab"
+                    },
+                    {
+                        "@type": "Organization",
+                        "credential": [
+                        ],
+                        "identifier": "https://scmp.com",
+                        "name": "South China Morning Post"
+                    },
+                    {
+                        "@id": "https://twitter.com/SCMPNews",
+                        "@type": "Organization",
+                        "identifier": "https://scmp.com",
+                        "name": "South China Morning Post"
                     }
                 ]
             }
