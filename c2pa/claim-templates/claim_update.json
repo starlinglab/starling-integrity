@@ -29,8 +29,8 @@
             "data": {
                 "actions": [
                     {
-                        "action": "c2pa.edited",
-                        "when": "{{asset_edited_timestamp}}"
+                        "action": "c2pa.unknown",
+                        "when": "{{asset_unknown_timestamp}}"
                     }
                 ]
             }
