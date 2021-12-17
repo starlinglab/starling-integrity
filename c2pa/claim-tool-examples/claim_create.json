@@ -1,6 +1,6 @@
 {
     "vendor": "starlinglab",
-    "recorder": "Starling Capture",
+    "recorder": "Starling Capture by Numbers Protocol",
     "assertions": [
         {
             "label": "stds.schema-org.CreativeWork",
