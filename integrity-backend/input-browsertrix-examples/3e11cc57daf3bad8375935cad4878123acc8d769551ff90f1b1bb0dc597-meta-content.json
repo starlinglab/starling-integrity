@@ -1,0 +1,21 @@
+{
+  "contentMetadata":
+  {
+    "name": "Web archive of @rt_com Twitter",
+    "mime": "application/wacz",
+    "description": "Web archive of @rt_com Twitter on 2022-03-29",
+    "createdBy": "Starling Lab",
+    "created": "2022-03-29T13:54:20Z",
+    "extras":
+    {
+      "authsign_software": "authsigner 0.3.1",
+      "authsign_domain": "authsign.stg.starlinglab.org",
+      "wacz_version": "1.1.1",
+      "pages":
+      {
+        "5ZwqT9xGkYVdYku3EVQLrD": "https://twitter.com/rt_com"
+      }
+    }
+  },
+  "timestamp": "2022-03-29T13:54:20Z"
+}

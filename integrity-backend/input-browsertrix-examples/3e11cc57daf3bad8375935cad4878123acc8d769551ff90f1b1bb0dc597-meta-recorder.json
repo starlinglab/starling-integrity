@@ -1,0 +1,99 @@
+{
+  "recorderMetadata": [
+    {
+      "service": "browsertrix",
+      "info": [
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "browsertrix_authsign_1",
+            "image": "sha256:02895c22cd0abe52bdfa4344c88b1cd41e9e3a0b4e4c0afbbc2a4cfc57e0b136"
+          }
+        },
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "browsertrix_backend_1",
+            "image": "sha256:f3b88d1878cfedd8eb05e45dbdfcbe19e0f0058b5db7d5d69f933145a4f63f90"
+          }
+        },
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "browsertrix_frontend_1",
+            "image": "sha256:c23149beb8bff646a8a11bf642fa975a761345c9f6fa7ff41961b2596b6e7161"
+          }
+        },
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "browsertrix_init_minio_bucket_1",
+            "image": "sha256:c266c15196d35dd6d88abcfd81505721e8cb2be3f95af1bcfb86ef9c61ff2d2b"
+          }
+        },
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "browsertrix_minio_1",
+            "image": "sha256:2e3b7fc5f101c45bae4b98d5817c7edc69d689b61b28d79424616a479ad1882f"
+          }
+        },
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "browsertrix_mongo_1",
+            "image": "sha256:798d1656acbafd5859700cb294bdd1d4b2a0f4fa7f649618a6d842c66aabdb4b"
+          }
+        },
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "browsertrix_redis_1",
+            "image": "sha256:87c26977fd9007551cdc0f42c836173000cfecbaf4c74f0e1c09645ec172864a"
+          }
+        },
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "volume_placeholder",
+            "image": "sha256:183cb5fd54142948ad88cc986a217465cfe8786cfdd89b1ed1fc49825da413a7"
+          }
+        },
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "git@github.com:webrecorder/browsertrix-cloud.git",
+            "branch": "main",
+            "commit": "29b586b03f181d431b2f9c981d92d50725fade07",
+            "clean": true
+          }
+        }
+      ]
+    },
+    {
+      "service": "integrity-preprocessor",
+      "info": [
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "git@github.com:starlinglab/integrity-preprocessor.git",
+            "branch": "main",
+            "commit": "05802d042d996a06fc51e81909cb2f394713da08",
+            "clean": true
+          }
+        }
+      ]
+    }
+  ],
+  "timestamp": "2022-03-29T13:54:20Z"
+}
