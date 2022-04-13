@@ -48,7 +48,7 @@
               "behaviors": "autoscroll,autoplay,autofetch,siteSpecific"
             }
           },
-          "additional_data":
+          "additionalData":
           {
             "url_list": "['https://twitter.com/mihali_mow/status/1499185490762911744?s=21']",
             "thread_ts": "1646326337.674519",
