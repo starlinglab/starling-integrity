@@ -1,0 +1,40 @@
+{
+    "recorderMetadata": [
+        {
+            "service": "dropbox",
+            "info": [
+                {
+                    "type": "docker",
+                    "values": {
+                        "name": "dropbox",
+                        "image": "sha256:a7d228a3f1ade6674b7c16c558dfea7c6c0d88f97e8ced370e092a72eb8c405d"
+                    }
+                },
+                {
+                    "type": "git",
+                    "values": {
+                        "repository": "dropbox-docker",
+                        "branch": "main",
+                        "commit": "",
+                        "clean": false
+                    }
+                }
+            ]
+        },
+        {
+            "service": "integrity-preprocessor",
+            "info": [
+                {
+                    "type": "git",
+                    "values": {
+                        "repository": "integrity-preprocessor.git",
+                        "branch": "53e855f",
+                        "commit": "",
+                        "clean": false
+                    }
+                }
+            ]
+        }
+    ],
+    "timestamp": "2022-04-13T20:39:59.297049Z"
+}
