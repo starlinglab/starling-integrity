@@ -4,7 +4,12 @@
     "name": "Web archive of @rt_com Twitter",
     "mime": "application/wacz",
     "description": "Web archive of @rt_com Twitter on 2022-03-29",
-    "createdBy": "Starling Lab",
+    "author":
+    {
+      "@type": "Organization",
+      "identifier": "https://starlinglab.org",
+      "name": "Starling Lab"
+    },
     "created": "2022-03-29T13:54:20Z",
     "extras":
     {
