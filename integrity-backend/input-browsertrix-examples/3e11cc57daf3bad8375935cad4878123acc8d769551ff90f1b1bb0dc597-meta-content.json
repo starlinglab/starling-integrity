@@ -10,7 +10,7 @@
       "identifier": "https://starlinglab.org",
       "name": "Starling Lab"
     },
-    "created": "2022-03-29T13:54:20Z",
+    "dateCreated": "2022-03-29T13:54:20Z",
     "extras":
     {
       "authsignSoftware": "authsigner 0.3.1",
