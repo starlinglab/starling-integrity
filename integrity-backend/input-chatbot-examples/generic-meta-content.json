@@ -1,9 +1,9 @@
 {
   "contentMetadata":
   {
-    "name": "Web archive of @rt_com Twitter",
-    "mime": "application/wacz",
-    "description": "Web archive of @rt_com Twitter on 2022-03-29",
+    "name": "Chat archive bot",
+    "mime": "application/zip",
+    "description": "Chat archive bot",
     "author":
     {
       "@type": "Organization",
