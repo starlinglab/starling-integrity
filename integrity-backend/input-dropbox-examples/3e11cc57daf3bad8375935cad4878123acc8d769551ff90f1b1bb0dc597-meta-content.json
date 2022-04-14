@@ -1,0 +1,24 @@
+{
+  "contentMetadata":
+  {
+    "name": "My Document",
+    "mime": "application/pdf",
+    "description": "File uploaded to Dropbox",
+    "author":
+    {
+      "@type": "Organization",
+      "identifier": "https://starlinglab.org",
+      "name": "Starling Lab"
+    },
+    "dateCreated": "2022-03-29T13:54:20Z",
+    "extras":
+    {},
+    "private":
+    {
+      "uploaderName": "John Snow",
+      "uploadFilename": "John Snow__My Document.pdf",
+      "uploadDirectory": "/mnt/store/dropbox/Dropbox/integrity-stg-starlinglab-org"
+    }
+  },
+  "timestamp": "2022-03-29T13:54:20Z"
+}

@@ -29,8 +29,7 @@
         "schedule": "",
         "config":
         {
-          "seeds":
-          [
+          "seeds": [
             "http://example.com"
           ],
           "scopeType": "page",
@@ -85,8 +84,7 @@
         "colls": [],
         "userName": "User",
         "configName": "test1",
-        "resources":
-        [          
+        "resources": [
           {
             "name": "33117110-111a-470d-906c-56121522b88d/data/2022-04-14030743836-7a6c59418e96.wacz",
             "path": "https://browsertrix.stg.starlinglab.org/minio/test-bucket/33117110-111a-470d-906c-56121522b88d/data/2022-04-14030743836-7a6c59418e96.wacz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ADMIN%2F20220414%2F%2Fs3%2Faws4_request&X-Amz-Date=20220414T030805Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1168b137f2906c9a57dd57b0e7f467da89d953dca3f48fed894f38c05e389503",
@@ -98,31 +96,25 @@
       },
       "additionalData":
       {
-        "url_list": 
-        [
+        "url_list": [
           "https://twitter.com/mihali_mow/status/1499185490762911744?s=21"
         ],
         "thread_ts": "1646326337.674519",
         "ts": "1646326337.674519",
         "client_msg_id": "76da98c5-8a40-4f9d-af03-6478e962856f",
-        "attached_service":
-        [
+        "attached_service": [
           "twitter"
         ],
-        "attached_ts":
-        [
+        "attached_ts": [
           1646268649
         ],
-        "attached_author":
-        [
+        "attached_author": [
           "Mihali"
         ],
-        "attached_text":
-        [
+        "attached_text": [
           "А вот как теперь эти суки промывают мозги детям, чтобы выросло новое поколение долбо@бов…:imp:"
         ],
-        "country_codes":
-        [
+        "country_codes": [
           "latvia flag"
         ],
         "all_codes": []
