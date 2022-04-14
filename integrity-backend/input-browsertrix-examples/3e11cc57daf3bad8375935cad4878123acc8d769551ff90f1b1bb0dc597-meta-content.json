@@ -1,9 +1,9 @@
 {
   "contentMetadata":
   {
-    "name": "Web archive of @rt_com Twitter",
+    "name": "Web archive on 2022-03-29",
     "mime": "application/wacz",
-    "description": "Web archive of @rt_com Twitter on 2022-03-29",
+    "description": "Web archive of [ 'https://twitter.com/rt_com' , 'https://example.com/page2', 'https://example.com/page3', ... ] on 2022-03-29",
     "author":
     {
       "@type": "Organization",
