@@ -23,7 +23,7 @@
     },
     "private":
     {
-      "crawlConfig":
+      "crawlConfigs":
         {
           "crawl_id": "2653b8981076",
           "crawl_template_id": "0055c2ab-cf8c-458b-9321-0f931800c361",
