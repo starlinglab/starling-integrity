@@ -1,0 +1,43 @@
+{
+  "recorderMetadata": [
+    {
+      "service": "dropbox",
+      "info": [
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "dropbox",
+            "image": "sha256:a7d228a3f1ade6674b7c16c558dfea7c6c0d88f97e8ced370e092a72eb8c405d"
+          }
+        },
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://github.com/starlinglab/dropbox-docker.git",
+            "branch": "main",
+            "commit": "6b163cc50e21262f2667babbc13f606fe5224cd0",
+            "clean": true
+          }
+        }
+      ]
+    },
+    {
+      "service": "integrity-preprocessor",
+      "info": [
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://github.com/starlinglab/integrity-preprocessor.git",
+            "branch": "main",
+            "commit": "05802d042d996a06fc51e81909cb2f394713da08",
+            "clean": true
+          }
+        }
+      ]
+    }
+  ],
+  "timestamp": "2022-04-13T20:39:59.297049Z"
+}

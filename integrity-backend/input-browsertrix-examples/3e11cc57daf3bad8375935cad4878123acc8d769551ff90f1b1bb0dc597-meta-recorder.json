@@ -71,7 +71,7 @@
           "type": "git",
           "values":
           {
-            "repository": "git@github.com:webrecorder/browsertrix-cloud.git",
+            "repository": "https://github.com/webrecorder/browsertrix-cloud.git",
             "branch": "main",
             "commit": "29b586b03f181d431b2f9c981d92d50725fade07",
             "clean": true
@@ -86,7 +86,7 @@
           "type": "git",
           "values":
           {
-            "repository": "git@github.com:starlinglab/integrity-preprocessor.git",
+            "repository": "https://github.com/starlinglab/integrity-preprocessor.git",
             "branch": "main",
             "commit": "05802d042d996a06fc51e81909cb2f394713da08",
             "clean": true
