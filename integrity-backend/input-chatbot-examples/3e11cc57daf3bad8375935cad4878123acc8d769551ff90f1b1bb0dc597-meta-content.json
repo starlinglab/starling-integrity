@@ -3,7 +3,7 @@
   {
     "name": "Telegram archive on 2022-03-29T13:00:00Z",
     "mime": "application/zip",
-    "description": "Archive of [ 'channel1', 'channel2' ] by Telegram bot starting on 2022-03-29T13:00:00Z",
+    "description": "Archive of [ channel1,channel2 ] by Telegram bot starting on 2022-03-29T13:00:00Z",
     "author":
     {
       "@type": "Organization",
