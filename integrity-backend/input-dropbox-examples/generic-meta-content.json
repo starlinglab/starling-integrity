@@ -16,6 +16,7 @@
       "dropboxPath": "/abc/def/ghi"
     },
     "private": {
+       "uploaderName": "John Snow",
        "dropboxAccount": "user@example.com"
     }
   },
