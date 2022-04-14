@@ -1,0 +1,44 @@
+{
+  "contentMetadata":
+  {
+    "name": "Telegram archive on 2022-03-29T13:00:00Z",
+    "mime": "application/zip",
+    "description": "Archive of [ channel1,channel2 ] by Telegram bot starting on 2022-03-29T13:00:00Z",
+    "author":
+    {
+      "@type": "Organization",
+      "identifier": "https://starlinglab.org",
+      "name": "Starling Lab"
+    },
+    "dateCreated": "2022-03-29T13:54:20Z",
+    "extras":
+    {
+      "channels": [
+        "channel1",
+        "channel2"
+      ],
+      "dateRage":
+      {
+        "from": "2022-03-29T13:00:00Z",
+        "to": "2022-03-29T14:00:00Z"
+      }
+    },
+    "private":
+    {
+      "signal":
+      {
+        "phoneNumber": "000-000-0000"
+      },
+      "slack":
+      {
+        "botAccount": "slackArchiveBot",
+        "workspace": "slackWorkspace"
+      },
+      "telegram":
+      {
+        "botAccount": "telegramArchiveBot"
+      }
+    }
+  },
+  "timestamp": "2022-03-29T13:54:20Z"
+}

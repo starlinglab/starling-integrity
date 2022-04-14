@@ -1,0 +1,36 @@
+{
+  "contentMetadata":
+  {
+    "name": "Title of the archive in wacz (fallback to 'Web archive' if empty)",
+    "mime": "application/wacz",
+    "description": "Web archive of [ http://example.com/,https://example.com/page2,https://example.com/page3,... ] uploaded to Dropbox on 2022-04-14",
+    "author":
+    {
+      "@type": "Organization",
+      "identifier": "https://starlinglab.org",
+      "name": "Starling Lab"
+    },
+    "dateCreated": "2022-04-14T01:27:46Z",
+    "extras":
+    {
+      "localsignSoftware": "Webrecorder ArchiveWeb.page 0.7.8, using warcio.js 1.5.0",
+      "localsignPublicKey": "MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEoCCciTZZ2Km8TGGsl2s4c91CyIPEVFcxyU6LEbRgnQtiuRtugKGmyxLKpK41kPsiDAOvmxA74VMuFAhiaqE3FfdSAPdnM8+V2ugYY+uNHlQlVIakJnuNZx/AYj5AoknV",
+      "localsignSignature": "9AHneB8LTEP80DNXI997A5f4j2//rRW911t1scyjnxBoYJut3afw6quK1Tww+DdwcgVqlNjfVMtH4rUN1v2VuOgq5bidXpoulInYQR7oQAJe4Tlq8H9gt84pcb8oRP3I",
+      "waczTitle": "Title of the archive in wacz",
+      "waczVersion": "1.1.1",
+      "software": "Webrecorder ArchiveWeb.page 0.7.8, using warcio.js 1.5.0",
+      "dateCrawled": "2022-04-14T01:25:06.091Z",
+      "pages":
+      {
+        "vngimrkldkpt682awhwrb": "http://example.com/"
+      }
+    },
+    "private":
+    {
+      "uploaderName": "John Snow",
+      "uploadFilename": "John Snow__My Archive.wacz",
+      "uploadDirectory": "/mnt/store/dropbox/Dropbox/integrity-stg-starlinglab-org"
+    },
+    "timestamp": "2022-04-14T01:49:08.647518Z"
+  }
+}

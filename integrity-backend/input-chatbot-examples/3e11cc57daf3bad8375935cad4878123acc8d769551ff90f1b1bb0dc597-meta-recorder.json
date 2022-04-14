@@ -1,0 +1,66 @@
+{
+  "recorderMetadata": [
+    {
+      "service": "slack_archive_bot_workspace-0",
+      "info": [
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "slack_archive_bot",
+            "image": "sha256:b560c010a66d20bdc79724b9f233c49dfa1211db42740ddb0763f92112017ae9"
+          }
+        },
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://github.com/starlinglab/slack-archive-bot.git",
+            "branch": "main",
+            "commit": "c45b3e6650ad880048cfd7baf7d712582f316768",
+            "clean": true
+          }
+        }
+      ]
+    },
+    {
+      "service": "telegram_archive_bot_testbot1",
+      "info": [
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "archive",
+            "image": "sha256:9d37b5723f83ae76de361e0c49ba9effb040b48a5c3aae4210ca2cf408cc25d7"
+          }
+        },
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://github.com/starlinglab/telegram-archive-bot.git",
+            "branch": "main",
+            "commit": "b1d4766171211f83fa8d6856ec9188511261bd8c",
+            "clean": true
+          }
+        }
+      ]
+    },
+    {
+      "service": "integrity-preprocessor",
+      "info": [
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://github.com/starlinglab/integrity-preprocessor.git",
+            "branch": "main",
+            "commit": "05802d042d996a06fc51e81909cb2f394713da08",
+            "clean": true
+          }
+        }
+      ]
+    }
+  ],
+  "timestamp": "2022-04-13T19:57:04.189255Z"
+}
