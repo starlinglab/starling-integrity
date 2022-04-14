@@ -3,7 +3,7 @@
   {
     "name": "Title of the archive in wacz (fallback to 'Web archive' if empty)",
     "mime": "application/wacz",
-    "description": "Web archive of [ 'http://example.com/' , 'https://example.com/page2', 'https://example.com/page3', ... ] uploaded to Dropbox on 2022-04-14",
+    "description": "Web archive of [ http://example.com/,https://example.com/page2,https://example.com/page3,... ] uploaded to Dropbox on 2022-04-14",
     "author":
     {
       "@type": "Organization",
