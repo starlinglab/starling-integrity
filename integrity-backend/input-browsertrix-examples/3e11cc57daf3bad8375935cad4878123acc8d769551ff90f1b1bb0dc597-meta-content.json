@@ -48,6 +48,35 @@
               "behaviors": "autoscroll,autoplay,autofetch,siteSpecific"
             }
           },
+          "crawlData": {
+              "id": "7a6c59418e96",
+              "userid": "c076412c-e6fc-414e-ab01-008cefb84571",
+              "aid": "33117110-111a-470d-906c-56121522b88d",
+              "cid": "07b27643-a445-4a6b-9e1d-29e2cae58e65",
+              "manual": true,
+              "started": "2022-04-14T03:07:42",
+              "finished": "2022-04-14T03:07:45",
+              "state": "complete",
+              "scale": 1,
+              "completions": 1,
+              "stats": {
+                  "done": "1",
+                  "found": "1"
+              },
+              "files": [],
+              "colls": [],
+              "userName": "Yurko",
+              "configName": "test1",
+              "resources": [
+                  {
+                      "name": "33117110-111a-470d-906c-56121522b88d/data/2022-04-14030743836-7a6c59418e96.wacz",
+                      "path": "https://browsertrix.stg.starlinglab.org/minio/test-bucket/33117110-111a-470d-906c-56121522b88d/data/2022-04-14030743836-7a6c59418e96.wacz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ADMIN%2F20220414%2F%2Fs3%2Faws4_request&X-Amz-Date=20220414T030805Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1168b137f2906c9a57dd57b0e7f467da89d953dca3f48fed894f38c05e389503",
+                      "hash": "a5f7479cfe2f7551495614bcc460a5ee83f53c924f38451646f668ec1f9fef41",
+                      "size": 5909
+                  }
+              ],
+              "watchIPs": []
+          },
           "additionalData":
           {
             "url_list": "['https://twitter.com/mihali_mow/status/1499185490762911744?s=21']",
