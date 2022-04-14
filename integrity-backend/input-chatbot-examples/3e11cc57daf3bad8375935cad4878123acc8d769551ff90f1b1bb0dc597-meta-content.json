@@ -32,7 +32,7 @@
       "slack":
       {
         "botAccount": "slackArchiveBot",
-        "workspace": "slackWorkSpace"
+        "workspace": "slackWorkspace"
       },
       "telegram":
       {
