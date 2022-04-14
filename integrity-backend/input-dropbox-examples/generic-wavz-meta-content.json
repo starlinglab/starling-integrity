@@ -3,7 +3,7 @@
         "dateCreated": "2022-04-14T01:27:46Z",
         "extras": {
             "localsignSoftware": "Webrecorder ArchiveWeb.page 0.7.8, using warcio.js 1.5.0",
-            "localsignpublicKey": "MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEoCCciTZZ2Km8TGGsl2s4c91CyIPEVFcxyU6LEbRgnQtiuRtugKGmyxLKpK41kPsiDAOvmxA74VMuFAhiaqE3FfdSAPdnM8+V2ugYY+uNHlQlVIakJnuNZx/AYj5AoknV",
+            "localsignPublicKey": "MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEoCCciTZZ2Km8TGGsl2s4c91CyIPEVFcxyU6LEbRgnQtiuRtugKGmyxLKpK41kPsiDAOvmxA74VMuFAhiaqE3FfdSAPdnM8+V2ugYY+uNHlQlVIakJnuNZx/AYj5AoknV",
             "localsignSignaturey": "9AHneB8LTEP80DNXI997A5f4j2//rRW911t1scyjnxBoYJut3afw6quK1Tww+DdwcgVqlNjfVMtH4rUN1v2VuOgq5bidXpoulInYQR7oQAJe4Tlq8H9gt84pcb8oRP3I",
             "waczVersion": "1.1.1",
             "software": "Webrecorder ArchiveWeb.page 0.7.8, using warcio.js 1.5.0",
