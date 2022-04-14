@@ -25,28 +25,42 @@
     {
       "crawlConfigs":
         {
-          "crawl_id": "2653b8981076",
-          "crawl_template_id": "0055c2ab-cf8c-458b-9321-0f931800c361",
-          "crawl_config":
-          {
-            "name": "1646326337.674519",
-            "colls": [],
-            "crawlTimeout": 300,
-            "scale": 1,
+            "id": "07b27643-a445-4a6b-9e1d-29e2cae58e65",
             "schedule": "",
-            "runNow": false,
-            "config":
-            {
-              "seeds": [
-                "https://twitter.com/mihali_mow/status/1499185490762911744?s=21"
-              ],
-              "scopeType": "page",
-              "depth": -1,
-              "limit": 0,
-              "extraHops": 0,
-              "behaviorTimeout": 60,
-              "behaviors": "autoscroll,autoplay,autofetch,siteSpecific"
-            }
+            "config": {
+                "seeds": [
+                    "http://example.com"
+                ],
+                "scopeType": "page",
+                "include": null,
+                "exclude": null,
+                "depth": -1,
+                "limit": 0,
+                "extraHops": 0,
+                "behaviorTimeout": null,
+                "workers": null,
+                "headless": null,
+                "generateWACZ": null,
+                "combineWARC": null,
+                "logging": null,
+                "behaviors": "autoscroll,autoplay,autofetch,siteSpecific"
+            },
+            "name": "test1",
+            "created": "2022-04-13T19:03:29",
+            "colls": [],
+            "crawlTimeout": 0,
+            "scale": 1,
+            "aid": "33117110-111a-470d-906c-56121522b88d",
+            "userid": "c076412c-e6fc-414e-ab01-008cefb84571",
+            "crawlCount": 9,
+            "lastCrawlId": "d544d40a7bca",
+            "lastCrawlTime": "2022-04-14T03:26:01",
+            "lastCrawlState": "complete",
+            "newId": null,
+            "oldId": null,
+            "inactive": false,
+            "currCrawlId": null,
+            "userName": "User"
           },
           "crawlData": {
               "id": "7a6c59418e96",
@@ -65,7 +79,7 @@
               },
               "files": [],
               "colls": [],
-              "userName": "Yurko",
+              "userName": "User",
               "configName": "test1",
               "resources": [
                   {
