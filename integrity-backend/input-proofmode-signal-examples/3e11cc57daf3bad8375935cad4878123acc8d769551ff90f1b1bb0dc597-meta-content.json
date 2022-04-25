@@ -1,0 +1,44 @@
+{
+  "contentMetadata":
+  {
+    "name": "Authenticated image",
+    "mime": "application/jpeg",
+    "description": "Image with ProofMode metadata received via Signal",
+    "author":
+    {
+      "type": "Organization",
+      "identifier": "https://starlinglab.org",
+      "name": "Starling Lab"
+    },
+    "dateCreated": "2022-03-29T13:54:20Z",
+    "extras":
+    {},
+    "private":
+    {
+      "proofMode":
+      {
+        "File Hash SHA256": "639b98640ba62cc604b17b06db2333a6bbd06ec04d540449efbdf6041b52a728",
+        "Locale": "GBR",
+        "SafetyCheckCtsMatch": "",
+        "IPv6": "FE80::1CA8:6BFF:FE7B:D8DE FE80::ACA3:CD56:5A50:F004 FE80::76F6:1CFF:FE28:30D4 ",
+        "IPv4": "192.168.40.61 ",
+        "SafetyCheckBasicIntegrity": "",
+        "File Modified": "Thursday  16 December 2021 18:44:04 Greenwich Mean Time",
+        "Language": "English",
+        "SafetyCheck": "",
+        "SafetyCheckTimestamp": "",
+        "Proof Generated": "Friday  17 December 2021 04:14:30 Greenwich Mean Time",
+        "NetworkType": "Wifi",
+        "Network": "Connected",
+        "Manufacturer": "HTC",
+        "DataType": "Mobile Data",
+        "Hardware": "HTC EXODUS 1s",
+        "File Path": "/storage/emulated/0/DCIM/Camera/IMG_20211216_184404.jpg",
+        "ScreenSize": "5.419201458314756",
+        "Notes": "",
+        "": ""
+      }
+    }
+  },
+  "timestamp": "2022-03-29T13:54:20Z"
+}

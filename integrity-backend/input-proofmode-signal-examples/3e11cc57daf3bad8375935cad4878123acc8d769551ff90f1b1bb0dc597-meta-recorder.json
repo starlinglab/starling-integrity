@@ -1,0 +1,50 @@
+{
+  "recorderMetadata": [
+    {
+      "service": "api",
+      "info": [
+        {
+          "type": "external",
+          "values":
+          {
+            "name": "proofmode-1.0.0"
+          }
+        },
+        {
+          "type": "docker",
+          "values":
+          {
+            "name": "signal_bot",
+            "image": "sha256:b560c010a66d20bdc79724b9f233c49dfa1211db42740ddb0763f92112017ae9"
+          }
+        },
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://github.com/starlinglab/signal-bot.git",
+            "branch": "main",
+            "commit": "c45b3e6650ad880048cfd7baf7d712582f316768",
+            "clean": true
+          }
+        }
+      ]
+    },
+    {
+      "service": "integrity-preprocessor",
+      "info": [
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://github.com/starlinglab/integrity-preprocessor.git",
+            "branch": "main",
+            "commit": "05802d042d996a06fc51e81909cb2f394713da08",
+            "clean": true
+          }
+        }
+      ]
+    }
+  ],
+  "timestamp": "2022-04-13T20:39:59.297049Z"
+}

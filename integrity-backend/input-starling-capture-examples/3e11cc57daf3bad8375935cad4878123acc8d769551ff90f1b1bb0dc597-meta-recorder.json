@@ -1,0 +1,42 @@
+{
+  "recorderMetadata": [
+    {
+      "service": "api",
+      "info": [
+        {
+          "type": "external",
+          "values":
+          {
+            "name": "starling-capture-1.0.0 ('tag' field in POST)"
+          }
+        },
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://github.com/starlinglab/integrity-backend.git",
+            "branch": "main",
+            "commit": "1d2ed6af7561ff28275f8b021e46d929895c57b4",
+            "clean": true
+          }
+        }
+      ]
+    },
+    {
+      "service": "integrity-preprocessor",
+      "info": [
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://github.com/starlinglab/integrity-preprocessor.git",
+            "branch": "main",
+            "commit": "05802d042d996a06fc51e81909cb2f394713da08",
+            "clean": true
+          }
+        }
+      ]
+    }
+  ],
+  "timestamp": "2022-04-13T20:39:59.297049Z"
+}

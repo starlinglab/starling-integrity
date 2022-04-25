@@ -1,0 +1,50 @@
+{
+  "contentMetadata":
+  {
+    "name": "Authenticated content",
+    "mime": "application/jpeg",
+    "description": "Content captured with Starling Capture application",
+    "author":
+    {
+      "type": "Organization",
+      "identifier": "https://starlinglab.org",
+      "name": "Starling Lab"
+    },
+    "dateCreated": "2022-03-29T13:54:20Z",
+    "extras":
+    {
+      "caption": "Content caption entered into Starling Capture app ('caption' field in POST)"
+    },
+    "private":
+    {
+      "meta": "eyJwcm9vZiI6eyJoYXNoIjoiN2IyNzkzMzQzMWY1ZWIyNThiOGU0Y2VhNzE4MjE5MDMxZDdhNTgyMTA4NjQ0ZTdmYzliZWVlNmE5MDU1ZTQ3YiIsIm1pbWVUeXBlIjoiaW1hZ2UvanBlZyIsInRpbWVzdGFtcCI6MTY1MDU2NTY2NTM5OX0sImluZm9ybWF0aW9uIjpbeyJwcm92aWRlciI6IkluZm9TbmFwc2hvdCIsIm5hbWUiOiJBY2NlbGVyb21ldGVyIiwidmFsdWUiOiJbLTAuMDg1NDQ5MjIsIDAuMDI3MTMwMTI3LCA5Ljc0OTIyMV0ifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6IkJvYXJkIiwidmFsdWUiOiJRQ19SZWZlcmVuY2VfUGhvbmUifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6IkJyYW5kIiwidmFsdWUiOiJIdGMifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6IkRldmljZSBCdWlsZCBGaW5nZXJwcmludCIsInZhbHVlIjoiSHRjL2JyZTJleGR1Z2xfMDI0MDEvaHRjX2JyZTJleGR1Z2w6OC4xLjAvT1BNMS4xNzEwMTkuMDExLzIwMDkwNDp1c2VyL3JlbGVhc2Uta2V5cyJ9LHsicHJvdmlkZXIiOiJJbmZvU25hcHNob3QiLCJuYW1lIjoiRGV2aWNlIEJ1aWxkIElEIiwidmFsdWUiOiIxLjE2LjI0MDEuMiJ9LHsicHJvdmlkZXIiOiJJbmZvU25hcHNob3QiLCJuYW1lIjoiRGV2aWNlIEJ1aWxkIFRhZ3MiLCJ2YWx1ZSI6InJlbGVhc2Uta2V5cyJ9LHsicHJvdmlkZXIiOiJJbmZvU25hcHNob3QiLCJuYW1lIjoiRGV2aWNlIEJ1aWxkIFRpbWUiLCJ2YWx1ZSI6IjA0LzA5LzIwMjAgMDk6MzIifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6IkRldmljZSBCdWlsZCBUeXBlIiwidmFsdWUiOiJ1c2VyIn0seyJwcm92aWRlciI6IkluZm9TbmFwc2hvdCIsIm5hbWUiOiJEZXZpY2UgTmFtZSIsInZhbHVlIjoiaHRjX2JyZTJleGR1Z2wifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6IkVuZCBQcm9kdWN0IE5hbWUiLCJ2YWx1ZSI6IkVYT0RVUyAxcyJ9LHsicHJvdmlkZXIiOiJJbmZvU25hcHNob3QiLCJuYW1lIjoiR2FtZSBSb3RhdGlvbiBWZWN0b3IiLCJ2YWx1ZSI6IlVOU1VQUE9SVEVEIn0seyJwcm92aWRlciI6IkluZm9TbmFwc2hvdCIsIm5hbWUiOiJHZW9tYWduZXRpYyBSb3RhdGlvbiBWZWN0b3IiLCJ2YWx1ZSI6Ils0LjQ4NDcyMkUtNCwgMC4wMDUzODcyOTUsIDAuMDM5ODA4NjI3LCAwLjk5OTIwMjYsIDAuMF0ifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6IkdyYXZpdHkiLCJ2YWx1ZSI6IlstMC4xMDUyMjUxOCwgMC4wMTI5OTUwNjMsIDkuODA2MDYzXSJ9LHsicHJvdmlkZXIiOiJJbmZvU25hcHNob3QiLCJuYW1lIjoiR3lyb3Njb3BlIiwidmFsdWUiOiJVTlNVUFBPUlRFRCJ9LHsicHJvdmlkZXIiOiJJbmZvU25hcHNob3QiLCJuYW1lIjoiSGFyZHdhcmUiLCJ2YWx1ZSI6InFjb20ifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6Ikhhc2ggb2YgQW5kcm9pZCBJRCIsInZhbHVlIjoiZjI5MDlhZWU2ZGM5OGFmNjc5MTExNWI1NzUxYzIwNDYwOGIwNTg4M2RjNmZjNGJlYmUwOWE3MjE2NDU2MWVkZiJ9LHsicHJvdmlkZXIiOiJJbmZvU25hcHNob3QiLCJuYW1lIjoiTGlnaHQiLCJ2YWx1ZSI6IlsxMy4wXSJ9LHsicHJvdmlkZXIiOiJJbmZvU25hcHNob3QiLCJuYW1lIjoiTGluZWFyIEFjY2VsZXJvbWV0ZXIiLCJ2YWx1ZSI6IlstMC4wMDUxNDEyNjEsIDAuMDE0MTc4MjksIC0wLjA0MzExMzM0N10ifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6Ik1hZ25ldGljIEZpZWxkIiwidmFsdWUiOiJbMS40NjQ4NDM4LCA0Ny4yNjU2MjUsIC05My4wNjUzNF0ifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6Ik1hbnVmYWN0dXJlciIsInZhbHVlIjoiSFRDIn0seyJwcm92aWRlciI6IkluZm9TbmFwc2hvdCIsIm5hbWUiOiJPdmVyYWxsIFByb2R1Y3QgTmFtZSIsInZhbHVlIjoiYnJlMmV4ZHVnbF8wMjQwMSJ9LHsicHJvdmlkZXIiOiJJbmZvU25hcHNob3QiLCJuYW1lIjoiUm90YXRpb24gVmVjdG9yIiwidmFsdWUiOiJbNC40ODQ3MjMzRS00LCAwLjAwNTM4NzI5NSwgMC4wMzk4MDg1OTcsIDAuOTk5MjAyNTUsIDAuMF0ifSx7InByb3ZpZGVyIjoiSW5mb1NuYXBzaG90IiwibmFtZSI6IlRpbWVzdGFtcCIsInZhbHVlIjoiMjAyMi0wNC0yMVQxODoyNzo1Ni4yMDRaIn1dfQ==",
+      "signature": [
+        {
+          "proofHash": "7b27933431f5eb258b8e4cea718219031d7a582108644e7fc9beee6a9055e47b",
+          "provider": "AndroidOpenSSL",
+          "signature": "3045022100b9710021685aced1367409132f813502084f2b8247491276898140323860948602203d42e45881790d77300159ab5bc3a29a4bfdf7d2e1849a1f186a92eeaa083540",
+          "publicKey": "3059301306072a8648ce3d020106082a8648ce3d0301070342000444e9ea8f87df66257202164e186312f2371204138378bccc37c8285f3fb11859614511d3807285cc48fd952957c1df3cd1b3325fef41afb05d606bf5375344bd"
+        },
+        {
+          "proofHash": "7b27933431f5eb258b8e4cea718219031d7a582108644e7fc9beee6a9055e47b",
+          "provider": "Zion",
+          "signature": "3046022100b15bf959e911ea794320a8b18d108dfc053c3f2367b1beddaf4da6d94a0799e1022100e4faf3d8d900030e44449d97eb81e9fa88ca54d7bfb9da3f960ade862fa87d1d",
+          "publicKey": "Session:\n3059301306072a8648ce3d020106082a8648ce3d0301070342000484fdf493402ed033f56a709e6bf1773abbc10ef35efa8d0a96c1e1ba291d933885fc39f6aab0115e7e8d2e20563e87ec38e2566117b7fa43cfd7122fa255a781\n\nReceive:\n02d2cbd839c74e5a2862b61ab88ae0a46121652f7e21f1556c74657935b2c4f0b9\n\nSend:\n02d2cbd839c74e5a2862b61ab88ae0a46121652f7e21f1556c74657935b2c4f0b9"
+        }
+      ],
+      "targetProvider": "Starling",
+      "providerToken":
+      {
+        "organization_id": "starling-lab",
+        "collection_id": "my-collection",
+        "author":
+        {
+          "type": "Organization",
+          "identifier": "https://starlinglab.org",
+          "name": "Starling Lab"
+        }
+      }
+    }
+  },
+  "timestamp": "2022-03-29T13:54:20Z"
+}
