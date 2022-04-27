@@ -1,7 +1,7 @@
 {
   "recorderMetadata": [
     {
-      "service": "api",
+      "service": "integrity-backend",
       "info": [
         {
           "type": "external",
