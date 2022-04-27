@@ -2,7 +2,7 @@
   "contentMetadata":
   {
     "name": "Authenticated image",
-    "mime": "application/jpeg",
+    "mime": "image/jpeg",
     "description": "Image with ProofMode metadata received via Signal",
     "author":
     {
