@@ -1,31 +1,47 @@
 {
   "recorderMetadata": [
     {
-      "service": "integrity-backend",
+      "service": "signal_bot_main",
       "info": [
         {
-          "type": "external",
+          "type": "docker",
           "values":
           {
-            "name": "proofmode-1.0.0"
+            "name": "signal_bot",
+            "image": "sha256:7c6914039ac72310dd8a64043feaa3d139fae98a7e50c3b7ad24be6864846cc0"
           }
         },
         {
           "type": "docker",
           "values":
           {
-            "name": "signal_bot",
-            "image": "sha256:b560c010a66d20bdc79724b9f233c49dfa1211db42740ddb0763f92112017ae9"
+            "name": "signald",
+            "image": "sha256:a0f4c6bad9155cbf41cc3bf51ad49e74ef46d9dcc5d41e0f7500229064f6d1df"
           }
         },
         {
           "type": "git",
           "values":
           {
-            "repository": "https://github.com/starlinglab/signal-bot.git",
+            "repository": "https://github.com/starlinglab/signal_bot.git",
             "branch": "main",
-            "commit": "c45b3e6650ad880048cfd7baf7d712582f316768",
-            "clean": true
+            "commit": "ddaa5d636c530f50ad58b6a3fc9faa16e425f1d5",
+            "clean": false
+          }
+        }
+      ]
+    },
+    {
+      "service": "signal_bot_main_signald",
+      "info": [
+        {
+          "type": "git",
+          "values":
+          {
+            "repository": "https://gitlab.com/signald/signald.git",
+            "branch": "main",
+            "commit": "2d898baa70a20c44ae918d2ce6e1f108579ee271",
+            "clean": false
           }
         }
       ]
@@ -38,13 +54,13 @@
           "values":
           {
             "repository": "https://github.com/starlinglab/integrity-preprocessor.git",
-            "branch": "main",
-            "commit": "05802d042d996a06fc51e81909cb2f394713da08",
-            "clean": true
+            "branch": "dev",
+            "commit": "1d48f1683299ba1879208a5cfe3b98e1b1ea7e21",
+            "clean": false
           }
         }
       ]
     }
   ],
-  "timestamp": "2022-04-13T20:39:59.297049Z"
+  "timestamp": "2022-05-07T20:27:44.315280Z"
 }
