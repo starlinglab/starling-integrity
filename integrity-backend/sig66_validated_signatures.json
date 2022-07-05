@@ -1,0 +1,8 @@
+{
+  "provider": "sig66",
+  "algorithm": "sig66-ecdsa",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\n[...]",
+  "signature": "<base64 encoded signature>",
+  "authenticatedMessage": "c8ac491f23bb1ec7bc6c9579e34ac7f5a64546f5a2d580f9de12c9355efefe832cee6146037cc4cc09cf958ef257d7e2481db2c8b330d00328c241c8db21568c",
+  "authenticatedMessageDescription": "SHA256 hash of image data concatenated with SHA256 hash of metadata"
+}

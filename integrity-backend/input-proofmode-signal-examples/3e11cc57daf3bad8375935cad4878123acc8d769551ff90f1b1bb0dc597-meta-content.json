@@ -15,6 +15,25 @@
     {
       "botType": "signal"
     },
+    "validatedSignatures": [
+      {
+        "provider": "ProofMode v0.0.15-BETA-3",
+        "algorithm": "proofmode-pgp-rsa",
+        "publicKey": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n[...]",
+        "custom": {
+          "IMG_123.jpg": {
+            "signature": "-----BEGIN PGP SIGNATURE-----\n[...]",
+            "authenticatedMessage": "8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8",
+            "authenticatedMessageDescription": "SHA256 hash of the signed file"
+          },
+          "8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv": {
+            "signature": "-----BEGIN PGP SIGNATURE-----\n[...]",
+            "authenticatedMessage": "f7fb4bf9c5e877d594f08f09278312dd959230b9eeb4c655c0eaee15a1a520bf",
+            "authenticatedMessageDescription": "SHA256 hash of the signed file"
+          }
+        }
+      }
+    ],
     "private":
     {
       "signal":
