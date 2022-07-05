@@ -1,6 +1,7 @@
 {
     "vendor": "starlinglab",
-    "recorder": "Starling Integrity",
+    "claim_generator": "Starling Integrity",
+    "ta_url": "http://timestamp.digicert.com",
     "assertions": [
         {
             "label": "stds.schema-org.CreativeWork",
@@ -10,8 +11,7 @@
                 "author": [
                     {
                         "@type": "Organization",
-                        "credential": [
-                        ],
+                        "credential": [],
                         "identifier": "https://scmp.com",
                         "name": "South China Morning Post"
                     },

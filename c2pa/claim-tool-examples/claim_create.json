@@ -1,6 +1,7 @@
 {
     "vendor": "starlinglab",
-    "recorder": "Starling Capture by Numbers Protocol",
+    "claim_generator": "Starling Capture by Numbers Protocol",
+    "ta_url": "http://timestamp.digicert.com",
     "assertions": [
         {
             "label": "stds.schema-org.CreativeWork",
@@ -10,8 +11,7 @@
                 "author": [
                     {
                         "@type": "Person",
-                        "credential": [
-                        ],
+                        "credential": [],
                         "identifier": "https://hypha.coop",
                         "name": "Benedict Lau"
                     },
@@ -53,7 +53,7 @@
             "data": {
                 "@context": {
                     "Iptc4xmpExt": "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
-                    "dc" : "http://purl.org/dc/elements/1.1/"
+                    "dc": "http://purl.org/dc/elements/1.1/"
                 },
                 "dc:creator": [
                     "Benedict Lau"
