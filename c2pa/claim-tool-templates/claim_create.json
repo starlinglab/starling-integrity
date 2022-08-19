@@ -46,8 +46,11 @@
                     "xmp": "http://ns.adobe.com/xap/1.0/",
                     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 },
+                "exif:GPSVersionID": "{{gps_version_id}}",
                 "exif:GPSLatitude": "{{gps_latitude}}",
                 "exif:GPSLongitude": "{{gps_longitude}}",
+                "exif:GPSAltitudeRef": 0,
+                "exif:GPSAltitude": "{{gps_altitude}}",
                 "exif:GPSTimeStamp": "{{gps_timestamp}}"
             }
         },
