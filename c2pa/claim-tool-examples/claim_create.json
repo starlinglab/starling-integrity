@@ -1,6 +1,7 @@
 {
     "vendor": "starlinglab",
-    "recorder": "Starling Capture by Numbers Protocol",
+    "claim_generator": "Starling Capture by Numbers Protocol",
+    "ta_url": "http://timestamp.digicert.com",
     "assertions": [
         {
             "label": "stds.schema-org.CreativeWork",
@@ -10,8 +11,7 @@
                 "author": [
                     {
                         "@type": "Person",
-                        "credential": [
-                        ],
+                        "credential": [],
                         "identifier": "https://hypha.coop",
                         "name": "Benedict Lau"
                     },
@@ -39,13 +39,19 @@
             "label": "stds.exif",
             "data": {
                 "@context": {
-                    "exif": "http://ns.adobe.com/exif/1.0/"
+                    "dc": "http://purl.org/dc/elements/1.1/",
+                    "exifEX": "http://cipa.jp/exif/2.32/",
+                    "exif": "http://ns.adobe.com/exif/1.0/",
+                    "tiff": "http://ns.adobe.com/tiff/1.0/",
+                    "xmp": "http://ns.adobe.com/xap/1.0/",
+                    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 },
-                "exif:GPSLatitude": "22/1 16/1 380219916977963/8796093022208",
-                "exif:GPSLatitudeRef": "N",
-                "exif:GPSLongitude": "114/1 10/1 4036351166030807/70368744177664",
-                "exif:GPSLongitudeRef": "E",
-                "exif:GPSTimeStamp": "2021:12:10 11:23:40 +0000"
+                "exif:GPSVersionID": "2.2.0.0",
+                "exif:GPSLatitude": "39,21.102N",
+                "exif:GPSLongitude": "74,26.5737W",
+                "exif:GPSAltitudeRef": 0,
+                "exif:GPSAltitude": "100963/29890",
+                "exif:GPSTimeStamp": "2019-09-22T18:22:57Z"
             }
         },
         {
@@ -53,7 +59,7 @@
             "data": {
                 "@context": {
                     "Iptc4xmpExt": "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
-                    "dc" : "http://purl.org/dc/elements/1.1/"
+                    "dc": "http://purl.org/dc/elements/1.1/"
                 },
                 "dc:creator": [
                     "Benedict Lau"
