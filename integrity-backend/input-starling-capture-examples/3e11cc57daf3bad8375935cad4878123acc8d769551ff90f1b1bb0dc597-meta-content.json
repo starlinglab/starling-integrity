@@ -23,7 +23,7 @@
       "GPSLongitude": "121/1 17/1 26027/500"
       "GPSLongitudeRef": "W",
       "GPSTimeStamp": "2022:03:09 17:08:00 +0000"
-    }
+    },
     "extras":
     {
       "caption": "Content caption entered into Starling Capture app ('caption' field in POST)"
