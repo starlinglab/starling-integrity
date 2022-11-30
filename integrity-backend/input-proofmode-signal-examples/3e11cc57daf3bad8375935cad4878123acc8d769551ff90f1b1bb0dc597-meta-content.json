@@ -41,7 +41,7 @@
         "countryCode": "us",
         "countryName": "United States",
         "provinceState": "California",
-        "streetAddress": "123 Fake St"
+        "address": "123 Fake St, Stockton, California, 20002, United States"
       },
       "signal": {
         "target": "+12899990286",
