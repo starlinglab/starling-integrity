@@ -63,27 +63,8 @@
               },
               "custom": {
                 "type": "object",
-                "properties": {
-                  "IMG_123.jpg": {
-                    "type": "object",
-                    "properties": {
-                      "signature": {
-                        "type": "string"
-                      },
-                      "authenticatedMessage": {
-                        "type": "string"
-                      },
-                      "authenticatedMessageDescription": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "authenticatedMessage",
-                      "authenticatedMessageDescription",
-                      "signature"
-                    ]
-                  },
-                  "8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv": {
+                "patternProperties": {
+                  "^.+$": {
                     "type": "object",
                     "properties": {
                       "signature": {
@@ -102,11 +83,7 @@
                       "signature"
                     ]
                   }
-                },
-                "required": [
-                  "8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv",
-                  "IMG_123.jpg"
-                ]
+                }
               }
             },
             "required": [
@@ -157,8 +134,8 @@
             },
             "proofmode": {
               "type": "object",
-              "properties": {
-                "20220608_162522.jpg": {
+              "patternProperties": {
+                "^.+\\.jpg$": {
                   "type": "object",
                   "properties": {
                     "pgpSignature": {
@@ -314,7 +291,6 @@
                 }
               },
               "required": [
-                "20220608_162522.jpg",
                 "dateCreate"
               ]
             }

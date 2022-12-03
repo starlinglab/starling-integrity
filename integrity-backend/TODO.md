@@ -1,0 +1,1 @@
+- [ ] add `patternProperties` handling to `json-schema-to-markdown` (right now, they're ignored)

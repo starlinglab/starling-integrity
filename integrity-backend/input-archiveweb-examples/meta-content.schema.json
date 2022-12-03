@@ -62,14 +62,11 @@
             },
             "pages": {
               "type": "object",
-              "properties": {
-                "vngimrkldkpt682awhwrb": {
+              "patternProperties": {
+                "^.+$": {
                   "type": "string"
                 }
-              },
-              "required": [
-                "vngimrkldkpt682awhwrb"
-              ]
+              }
             }
           },
           "required": [

@@ -35,8 +35,6 @@ contentMetadata | object |
 *contentMetadata.extras.* localsignSignature | string | *Optional* 
 *contentMetadata.extras.* localsignSoftware | string | *Optional* 
 *contentMetadata.extras.* pages | object | *Optional* 
-*contentMetadata.extras.pages.* 5ZwqT9xGkYVdYku3EVQLrD | string | *Optional* 
-*contentMetadata.extras.pages.* vngimrkldkpt682awhwrb | string | *Optional* 
 *contentMetadata.extras.* software | string | *Optional* 
 *contentMetadata.extras.* waczTitle | string | *Optional* 
 *contentMetadata.extras.* waczVersion | string | *Optional* 
@@ -115,43 +113,6 @@ contentMetadata | object |
 *contentMetadata.private.crawlData.* watchIPs | array\<string\> | 
 *contentMetadata.private.* meta | string | *Optional* 
 *contentMetadata.private.* proofmode | object | *Optional* 
-*contentMetadata.private.proofmode.* 20220608_162522.jpg | object | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* dateCreate | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* pgpPublicKey | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* pgpSignature | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* proofmodeJSON | object | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* CellInfo | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* DataType | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* DeviceID | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* File Hash SHA256 | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* File Modified | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* File Path | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Hardware | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* IPv4 | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* IPv6 | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Language | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Locale | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Accuracy | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Altitude | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Bearing | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Latitude | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Longitude | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Provider | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Speed | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Time | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Manufacturer | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Network | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* NetworkType | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Notes | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Proof Generated | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* SafetyCheck | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* SafetyCheckBasicIntegrity | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* SafetyCheckCtsMatch | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* SafetyCheckTimestamp | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* ScreenSize | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Wifi MAC | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* sha256hash | string | 
-*contentMetadata.private.proofmode.* dateCreate | string | 
 *contentMetadata.private.* providerToken | object | *Optional* 
 *contentMetadata.private.providerToken.* author | object | 
 *contentMetadata.private.providerToken.author.* identifier | string | 
@@ -210,23 +171,15 @@ contentMetadata | object |
 *contentMetadata.validatedSignatures[].* authenticatedMessage | string | *Optional* 
 *contentMetadata.validatedSignatures[].* authenticatedMessageDescription | string | *Optional* 
 *contentMetadata.validatedSignatures[].* custom | object | *Optional* 
-*contentMetadata.validatedSignatures[].custom.* 8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv | object | *Optional* 
-*contentMetadata.validatedSignatures[].custom.8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv.* authenticatedMessage | string | 
-*contentMetadata.validatedSignatures[].custom.8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv.* authenticatedMessageDescription | string | 
-*contentMetadata.validatedSignatures[].custom.8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv.* signature | string | 
-*contentMetadata.validatedSignatures[].custom.* IMG_123.jpg | object | *Optional* 
-*contentMetadata.validatedSignatures[].custom.IMG_123.jpg.* authenticatedMessage | string | 
-*contentMetadata.validatedSignatures[].custom.IMG_123.jpg.* authenticatedMessageDescription | string | 
-*contentMetadata.validatedSignatures[].custom.IMG_123.jpg.* signature | string | 
-*contentMetadata.validatedSignatures[].custom.* created | string | *Optional* 
-*contentMetadata.validatedSignatures[].custom.* domain | string | *Optional* 
-*contentMetadata.validatedSignatures[].custom.* domainCert | string | *Optional* 
-*contentMetadata.validatedSignatures[].custom.* hash | string | *Optional* 
-*contentMetadata.validatedSignatures[].custom.* signature | string | *Optional* 
-*contentMetadata.validatedSignatures[].custom.* software | string | *Optional* 
-*contentMetadata.validatedSignatures[].custom.* timeSignature | string | *Optional* 
-*contentMetadata.validatedSignatures[].custom.* timestampCert | string | *Optional* 
-*contentMetadata.validatedSignatures[].custom.* version | string | *Optional* 
+*contentMetadata.validatedSignatures[].custom.* created | string | 
+*contentMetadata.validatedSignatures[].custom.* domain | string | 
+*contentMetadata.validatedSignatures[].custom.* domainCert | string | 
+*contentMetadata.validatedSignatures[].custom.* hash | string | 
+*contentMetadata.validatedSignatures[].custom.* signature | string | 
+*contentMetadata.validatedSignatures[].custom.* software | string | 
+*contentMetadata.validatedSignatures[].custom.* timeSignature | string | 
+*contentMetadata.validatedSignatures[].custom.* timestampCert | string | 
+*contentMetadata.validatedSignatures[].custom.* version | string | 
 *contentMetadata.validatedSignatures[].* publicKey | string | *Optional* 
 *contentMetadata.validatedSignatures[].* signature | string | *Optional* 
 sourceId | object | *Optional* 
@@ -250,7 +203,6 @@ contentMetadata | object |
 *contentMetadata.extras.* localsignSignature | string | 
 *contentMetadata.extras.* localsignSoftware | string | 
 *contentMetadata.extras.* pages | object | 
-*contentMetadata.extras.pages.* vngimrkldkpt682awhwrb | string | 
 *contentMetadata.extras.* software | string | 
 *contentMetadata.extras.* waczTitle | string | 
 *contentMetadata.extras.* waczVersion | string | 
@@ -284,7 +236,6 @@ contentMetadata | object |
 *contentMetadata.extras.* authsignDomain | string | 
 *contentMetadata.extras.* authsignSoftware | string | 
 *contentMetadata.extras.* pages | object | 
-*contentMetadata.extras.pages.* 5ZwqT9xGkYVdYku3EVQLrD | string | 
 *contentMetadata.extras.* waczVersion | string | 
 *contentMetadata.* mime | string | 
 *contentMetadata.* name | string | 
@@ -443,43 +394,6 @@ contentMetadata | object |
 *contentMetadata.* name | string | 
 *contentMetadata.* private | object | 
 *contentMetadata.private.* proofmode | object | 
-*contentMetadata.private.proofmode.* 20220608_162522.jpg | object | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* dateCreate | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* pgpPublicKey | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* pgpSignature | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* proofmodeJSON | object | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* CellInfo | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* DataType | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* DeviceID | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* File Hash SHA256 | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* File Modified | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* File Path | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Hardware | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* IPv4 | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* IPv6 | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Language | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Locale | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Accuracy | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Altitude | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Bearing | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Latitude | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Longitude | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Provider | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Speed | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Location.Time | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Manufacturer | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Network | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* NetworkType | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Notes | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Proof Generated | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* SafetyCheck | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* SafetyCheckBasicIntegrity | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* SafetyCheckCtsMatch | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* SafetyCheckTimestamp | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* ScreenSize | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.proofmodeJSON.* Wifi MAC | string | 
-*contentMetadata.private.proofmode.20220608_162522.jpg.* sha256hash | string | 
-*contentMetadata.private.proofmode.* dateCreate | string | 
 *contentMetadata.private.* signal | object | 
 *contentMetadata.private.signal.* body | string | 
 *contentMetadata.private.signal.* source | string | 
@@ -492,14 +406,6 @@ contentMetadata | object |
 *contentMetadata.* validatedSignatures[] | object | 
 *contentMetadata.validatedSignatures[].* algorithm | string | 
 *contentMetadata.validatedSignatures[].* custom | object | 
-*contentMetadata.validatedSignatures[].custom.* 8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv | object | 
-*contentMetadata.validatedSignatures[].custom.8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv.* authenticatedMessage | string | 
-*contentMetadata.validatedSignatures[].custom.8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv.* authenticatedMessageDescription | string | 
-*contentMetadata.validatedSignatures[].custom.8045cb0d6783638e5828f3cca0ec3aab6ab5b9f8a971faf620a58f6cee1c7ca8.proof.csv.* signature | string | 
-*contentMetadata.validatedSignatures[].custom.* IMG_123.jpg | object | 
-*contentMetadata.validatedSignatures[].custom.IMG_123.jpg.* authenticatedMessage | string | 
-*contentMetadata.validatedSignatures[].custom.IMG_123.jpg.* authenticatedMessageDescription | string | 
-*contentMetadata.validatedSignatures[].custom.IMG_123.jpg.* signature | string | 
 *contentMetadata.validatedSignatures[].* provider | string | 
 *contentMetadata.validatedSignatures[].* publicKey | string | 
 timestamp | string | 

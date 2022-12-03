@@ -50,14 +50,11 @@
             },
             "pages": {
               "type": "object",
-              "properties": {
-                "5ZwqT9xGkYVdYku3EVQLrD": {
+              "patternProperties": {
+                "^.+$": {
                   "type": "string"
                 }
-              },
-              "required": [
-                "5ZwqT9xGkYVdYku3EVQLrD"
-              ]
+              }
             }
           },
           "required": [
