@@ -302,7 +302,10 @@
                   "type": "string"
                 },
                 "colls": {
-                  "type": "array"
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "crawlTimeout": {
                   "type": "integer"
@@ -415,10 +418,16 @@
                   ]
                 },
                 "files": {
-                  "type": "array"
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "colls": {
-                  "type": "array"
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "userName": {
                   "type": "string"
@@ -453,7 +462,10 @@
                   }
                 },
                 "watchIPs": {
-                  "type": "array"
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 }
               },
               "required": [
@@ -525,7 +537,10 @@
                   }
                 },
                 "all_codes": {
-                  "type": "array"
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 }
               },
               "required": [
