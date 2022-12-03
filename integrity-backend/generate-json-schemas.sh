@@ -16,17 +16,13 @@ echo 'Generating JSON schema for validated signatures'
 genson sig66_validated_signatures.json | jq > sig66_validated_signatures.schema.json
 
 echo 'Generating JSON schemas for meta content per input type'
-for f in **/*-meta-content.json; do
-    genson $f | jq > $(dirname $f)/meta-content.schema.json
+for f in ./*/*-meta-content.json; do
+  genson $f | jq > $(dirname $f)/meta-content.schema.json
 done
-
-echo 'Generating joint JSON schema for meta content'
-genson **/*-meta-content.json | jq > meta-content.schema.json
 
 echo 'Generating JSON schemas for meta recorder per input type'
-for f in **/*-meta-recorder.json; do
-    genson $f | jq > $(dirname $f)/meta-recorder.schema.json
+for f in ./*/*-meta-recorder.json; do
+  genson $f | jq > $(dirname $f)/meta-recorder.schema.json
 done
 
-echo 'Generating joint JSON schema for meta recorder'
-genson **/*-meta-recorder.json | jq > meta-recorder.schema.json
+./generate-joint-json-schemas.sh
