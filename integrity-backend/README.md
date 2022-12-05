@@ -1,6 +1,25 @@
 # Schemas
 
+## Table of contents
+
+- [Validated signatures](#validated-signatures)
+- [Meta content](#meta-content)
+    - [input-archiveweb-examples](#input-archiveweb-examples)
+    - [input-browsertrix-examples](#input-browsertrix-examples)
+    - [input-chatbot-examples](#input-chatbot-examples)
+    - [input-dropbox-examples](#input-dropbox-examples)
+    - [input-proofmode-signal-examples](#input-proofmode-signal-examples)
+    - [input-starling-capture-examples](#input-starling-capture-examples)
+- [Meta recorder](#meta-recorder)
+    - [input-archiveweb-examples](#input-archiveweb-examples)
+    - [input-browsertrix-examples](#input-browsertrix-examples)
+    - [input-chatbot-examples](#input-chatbot-examples)
+    - [input-dropbox-examples](#input-dropbox-examples)
+    - [input-proofmode-signal-examples](#input-proofmode-signal-examples)
+    - [input-starling-capture-examples](#input-starling-capture-examples)
+
 ## Validated signatures
+
 Name | Type | Description
 ---- | ---- | -----------
 algorithm | string | 
@@ -11,6 +30,7 @@ publicKey | string |
 signature | string | 
 
 ## Meta content
+
 Name | Type | Description
 ---- | ---- | -----------
 contentMetadata | object | 
@@ -462,6 +482,7 @@ contentMetadata | object |
 timestamp | string | 
 
 ## Meta recorder
+
 Name | Type | Description
 ---- | ---- | -----------
 recorderMetadata | array | 
