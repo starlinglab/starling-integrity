@@ -13,7 +13,7 @@
     {
       "caption": "Content caption entered into Starling Capture app ('caption' field in POST)"
     },
-    "validatedSignature": [
+    "validatedSignatures": [
       {
         "provider": "starling-capture",
         "algorithm": "starling-capture-androidopenssl",
