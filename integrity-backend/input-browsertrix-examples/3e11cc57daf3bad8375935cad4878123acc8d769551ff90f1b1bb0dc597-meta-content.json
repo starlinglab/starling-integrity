@@ -24,7 +24,7 @@
     "validatedSignatures": [
       {
         "provider": "authsigner 0.4.0",
-        "algorithm": "wacz-domain-ecdsa-sig",
+        "algorithm": "ecdsa-certificate-sig",
         "custom":
         {
           "hash": "sha256:a6d08d3709143a395bf3d5d44cb5555d720e431336e993f32504554d6f5d1b15",
