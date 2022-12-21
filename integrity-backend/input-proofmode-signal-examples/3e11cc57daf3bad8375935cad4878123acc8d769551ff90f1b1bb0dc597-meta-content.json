@@ -32,17 +32,6 @@
       }
     ],
     "private": {
-      "geolocation": {
-        "latitude": "123.456",
-        "longitude": "-123.456",
-        "altitude": "123.456",
-        "timestamp": "2022-08-15T16:24:20.305Z",
-        "city": "Stockton",
-        "countryCode": "us",
-        "countryName": "United States",
-        "provinceState": "California",
-        "address": "123 Fake St, Stockton, California, 20002, United States"
-      },
       "signal": {
         "target": "+12899990286",
         "source": "+85264664092",
