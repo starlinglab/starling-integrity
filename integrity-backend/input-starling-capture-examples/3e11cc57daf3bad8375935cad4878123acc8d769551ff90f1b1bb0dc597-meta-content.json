@@ -4,7 +4,7 @@
     "mime": "image/jpeg",
     "description": "Content captured with Starling Capture application",
     "author": {
-      "type": "Organization",
+      "@type": "Organization",
       "identifier": "https://starlinglab.org",
       "name": "Starling Lab"
     },
@@ -87,7 +87,7 @@
         "organization_id": "starling-lab",
         "collection_id": "my-collection",
         "author": {
-          "type": "Organization",
+          "@type": "Organization",
           "identifier": "https://starlinglab.org",
           "name": "Starling Lab"
         }
