@@ -17,7 +17,7 @@
         "author": {
           "type": "object",
           "properties": {
-            "type": {
+            "@type": {
               "type": "string"
             },
             "identifier": {
@@ -30,7 +30,7 @@
           "required": [
             "identifier",
             "name",
-            "type"
+            "@type"
           ]
         },
         "dateCreated": {
@@ -84,10 +84,10 @@
         "private": {
           "type": "object",
           "properties": {
-            "meta": {
+            "b64AuthenticatedMetadata": {
               "type": "string"
             },
-            "signature": {
+            "signatures": {
               "type": "array",
               "items": {
                 "type": "object",
@@ -128,7 +128,7 @@
                 "author": {
                   "type": "object",
                   "properties": {
-                    "type": {
+                    "@type": {
                       "type": "string"
                     },
                     "identifier": {
@@ -141,7 +141,7 @@
                   "required": [
                     "identifier",
                     "name",
-                    "type"
+                    "@type"
                   ]
                 }
               },
@@ -153,9 +153,9 @@
             }
           },
           "required": [
-            "meta",
+            "b64AuthenticatedMetadata",
             "providerToken",
-            "signature",
+            "signatures",
             "targetProvider"
           ]
         }
