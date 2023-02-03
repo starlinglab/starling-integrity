@@ -4,9 +4,11 @@ on:
   push:
     paths:
       - "integrity-backend/**.json"
+      - ".github/workflows/validate.yml"
   pull_request:
     paths:
       - "integrity-backend/**.json"
+      - ".github/workflows/validate.yml"
 
 jobs:
   verify-json-validation:
