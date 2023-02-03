@@ -28,10 +28,10 @@ jobs:
       - name: Validate meta-content
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_SCHEMA: integrity-backend/input-${{ dir }}-examples/meta-content.schema.json
-          INPUT_JSONS: integrity-backend/input-${{ dir }}-examples/3e11cc57daf3bad8375935cad4878123acc8d769551ff90f1b1bb0dc597-meta-content.json
+          INPUT_SCHEMA: integrity-backend/input-${{ matrix.dir }}-examples/meta-content.schema.json
+          INPUT_JSONS: integrity-backend/input-${{ matrix.dir }}-examples/3e11cc57daf3bad8375935cad4878123acc8d769551ff90f1b1bb0dc597-meta-content.json
       - name: Validate meta-recorder
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_SCHEMA: integrity-backend/input-${{ dir }}-examples/meta-recorder.schema.json
-          INPUT_JSONS: integrity-backend/input-${{ dir }}-examples/3e11cc57daf3bad8375935cad4878123acc8d769551ff90f1b1bb0dc597-meta-recorder.json
+          INPUT_SCHEMA: integrity-backend/input-${{ matrix.dir }}-examples/meta-recorder.schema.json
+          INPUT_JSONS: integrity-backend/input-${{ matrix.dir }}-examples/3e11cc57daf3bad8375935cad4878123acc8d769551ff90f1b1bb0dc597-meta-recorder.json
