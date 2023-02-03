@@ -94,7 +94,7 @@
             "caption"
           ]
         },
-        "validatedSignature": {
+        "validatedSignatures": {
           "type": "array",
           "items": {
             "type": "object",
@@ -216,7 +216,7 @@
         "mime",
         "name",
         "private",
-        "validatedSignature"
+        "validatedSignatures"
       ]
     },
     "timestamp": {
