@@ -36,53 +36,6 @@
         "dateCreated": {
           "type": "string"
         },
-        "location": {
-          "type": "object",
-          "properties": {
-            "city": {
-              "type": "string"
-            },
-            "countryCode": {
-              "type": "string"
-            },
-            "countryName": {
-              "type": "string"
-            },
-            "provinceState": {
-              "type": "string"
-            },
-            "streetAddress": {
-              "type": "string"
-            },
-            "GPSLatitude": {
-              "type": "string"
-            },
-            "GPSLatitudeRef": {
-              "type": "string"
-            },
-            "GPSLongitude": {
-              "type": "string"
-            },
-            "GPSLongitudeRef": {
-              "type": "string"
-            },
-            "GPSTimeStamp": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "GPSLatitude",
-            "GPSLatitudeRef",
-            "GPSLongitude",
-            "GPSLongitudeRef",
-            "GPSTimeStamp",
-            "city",
-            "countryCode",
-            "countryName",
-            "provinceState",
-            "streetAddress"
-          ]
-        },
         "extras": {
           "type": "object",
           "properties": {
@@ -212,7 +165,6 @@
         "dateCreated",
         "description",
         "extras",
-        "location",
         "mime",
         "name",
         "private",
