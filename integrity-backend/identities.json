@@ -1,0 +1,10 @@
+{
+  "sig66": {
+    "<public key>": "Camera 123 provisioned to John Smith at Foo Inc.",
+    "<public key 2>": "Camera 321 provisioned to Jane Doe at Bar Inc."
+  },
+  "starling-capture": {
+    "<eth key>": "Phone <ID> given to student #5 at Stanford",
+    "<eth key 2>": "Phone given to Jacob at Baz Lab"
+  }
+}
