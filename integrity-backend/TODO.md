@@ -1,0 +1,2 @@
+- [ ] add `patternProperties` handling to `json-schema-to-markdown` (right now, they're ignored)
+- [ ] provide better types for fields currently listed as `null`

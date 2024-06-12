@@ -1,0 +1,953 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "contentMetadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "mime": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "author": {
+          "type": "object",
+          "properties": {
+            "@type": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "identifier",
+            "name"
+          ]
+        },
+        "dateCreated": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object",
+          "properties": {
+            "localsignSoftware": {
+              "type": "string"
+            },
+            "localsignPublicKey": {
+              "type": "string"
+            },
+            "localsignSignature": {
+              "type": "string"
+            },
+            "waczTitle": {
+              "type": "string"
+            },
+            "waczVersion": {
+              "type": "string"
+            },
+            "software": {
+              "type": "string"
+            },
+            "dateCrawled": {
+              "type": "string"
+            },
+            "pages": {
+              "type": "object",
+              "patternProperties": {
+                "^.+$": {
+                  "type": "string"
+                }
+              }
+            },
+            "authsignSoftware": {
+              "type": "string"
+            },
+            "authsignDomain": {
+              "type": "string"
+            },
+            "channels": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "dateRage": {
+              "type": "object",
+              "properties": {
+                "from": {
+                  "type": "string"
+                },
+                "to": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "from",
+                "to"
+              ]
+            },
+            "botType": {
+              "type": "string"
+            },
+            "caption": {
+              "type": "string"
+            }
+          }
+        },
+        "validatedSignatures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "provider": {
+                "type": "string"
+              },
+              "algorithm": {
+                "type": "string"
+              },
+              "publicKey": {
+                "type": "string"
+              },
+              "signature": {
+                "type": "string"
+              },
+              "authenticatedMessage": {
+                "type": "string"
+              },
+              "authenticatedMessageDescription": {
+                "type": "string"
+              },
+              "custom": {
+                "type": "object",
+                "properties": {
+                  "hash": {
+                    "type": "string"
+                  },
+                  "created": {
+                    "type": "string"
+                  },
+                  "software": {
+                    "type": "string"
+                  },
+                  "signature": {
+                    "type": "string"
+                  },
+                  "domain": {
+                    "type": "string"
+                  },
+                  "domainCert": {
+                    "type": "string"
+                  },
+                  "timeSignature": {
+                    "type": "string"
+                  },
+                  "timestampCert": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "string"
+                  }
+                },
+                "patternProperties": {
+                  "^.+$": {
+                    "type": "object",
+                    "properties": {
+                      "signature": {
+                        "type": "string"
+                      },
+                      "authenticatedMessage": {
+                        "type": "string"
+                      },
+                      "authenticatedMessageDescription": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "authenticatedMessage",
+                      "authenticatedMessageDescription",
+                      "signature"
+                    ]
+                  }
+                },
+                "required": [
+                  "created",
+                  "domain",
+                  "domainCert",
+                  "hash",
+                  "signature",
+                  "software",
+                  "timeSignature",
+                  "timestampCert",
+                  "version"
+                ]
+              }
+            },
+            "required": [
+              "algorithm",
+              "provider"
+            ]
+          }
+        },
+        "private": {
+          "type": "object",
+          "properties": {
+            "uploaderName": {
+              "type": "string"
+            },
+            "uploadFilename": {
+              "type": "string"
+            },
+            "uploadDirectory": {
+              "type": "string"
+            },
+            "crawlConfigs": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "schedule": {
+                  "type": "string"
+                },
+                "config": {
+                  "type": "object",
+                  "properties": {
+                    "seeds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "scopeType": {
+                      "type": "string"
+                    },
+                    "include": {
+                      "type": "null"
+                    },
+                    "exclude": {
+                      "type": "null"
+                    },
+                    "depth": {
+                      "type": "integer"
+                    },
+                    "limit": {
+                      "type": "integer"
+                    },
+                    "extraHops": {
+                      "type": "integer"
+                    },
+                    "behaviorTimeout": {
+                      "type": "null"
+                    },
+                    "workers": {
+                      "type": "null"
+                    },
+                    "headless": {
+                      "type": "null"
+                    },
+                    "generateWACZ": {
+                      "type": "null"
+                    },
+                    "combineWARC": {
+                      "type": "null"
+                    },
+                    "logging": {
+                      "type": "null"
+                    },
+                    "behaviors": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "behaviorTimeout",
+                    "behaviors",
+                    "combineWARC",
+                    "depth",
+                    "exclude",
+                    "extraHops",
+                    "generateWACZ",
+                    "headless",
+                    "include",
+                    "limit",
+                    "logging",
+                    "scopeType",
+                    "seeds",
+                    "workers"
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "colls": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "crawlTimeout": {
+                  "type": "integer"
+                },
+                "scale": {
+                  "type": "integer"
+                },
+                "aid": {
+                  "type": "string"
+                },
+                "userid": {
+                  "type": "string"
+                },
+                "crawlCount": {
+                  "type": "integer"
+                },
+                "lastCrawlId": {
+                  "type": "string"
+                },
+                "lastCrawlTime": {
+                  "type": "string"
+                },
+                "lastCrawlState": {
+                  "type": "string"
+                },
+                "newId": {
+                  "type": "null"
+                },
+                "oldId": {
+                  "type": "null"
+                },
+                "inactive": {
+                  "type": "boolean"
+                },
+                "currCrawlId": {
+                  "type": "null"
+                },
+                "userName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "aid",
+                "colls",
+                "config",
+                "crawlCount",
+                "crawlTimeout",
+                "created",
+                "currCrawlId",
+                "id",
+                "inactive",
+                "lastCrawlId",
+                "lastCrawlState",
+                "lastCrawlTime",
+                "name",
+                "newId",
+                "oldId",
+                "scale",
+                "schedule",
+                "userName",
+                "userid"
+              ]
+            },
+            "crawlData": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "userid": {
+                  "type": "string"
+                },
+                "aid": {
+                  "type": "string"
+                },
+                "cid": {
+                  "type": "string"
+                },
+                "manual": {
+                  "type": "boolean"
+                },
+                "started": {
+                  "type": "string"
+                },
+                "finished": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string"
+                },
+                "scale": {
+                  "type": "integer"
+                },
+                "completions": {
+                  "type": "integer"
+                },
+                "stats": {
+                  "type": "object",
+                  "properties": {
+                    "done": {
+                      "type": "string"
+                    },
+                    "found": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "done",
+                    "found"
+                  ]
+                },
+                "files": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "colls": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "userName": {
+                  "type": "string"
+                },
+                "configName": {
+                  "type": "string"
+                },
+                "resources": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "path": {
+                        "type": "string"
+                      },
+                      "hash": {
+                        "type": "string"
+                      },
+                      "size": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "hash",
+                      "name",
+                      "path",
+                      "size"
+                    ]
+                  }
+                },
+                "watchIPs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "aid",
+                "cid",
+                "colls",
+                "completions",
+                "configName",
+                "files",
+                "finished",
+                "id",
+                "manual",
+                "resources",
+                "scale",
+                "started",
+                "state",
+                "stats",
+                "userName",
+                "userid",
+                "watchIPs"
+              ]
+            },
+            "additionalData": {
+              "type": "object",
+              "properties": {
+                "url_list": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "thread_ts": {
+                  "type": "string"
+                },
+                "ts": {
+                  "type": "string"
+                },
+                "client_msg_id": {
+                  "type": "string"
+                },
+                "attached_service": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "attached_ts": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer"
+                  }
+                },
+                "attached_author": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "attached_text": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "country_codes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "all_codes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "all_codes",
+                "attached_author",
+                "attached_service",
+                "attached_text",
+                "attached_ts",
+                "client_msg_id",
+                "country_codes",
+                "thread_ts",
+                "ts",
+                "url_list"
+              ]
+            },
+            "signal": {
+              "type": "object",
+              "properties": {
+                "phoneNumber": {
+                  "type": "string"
+                },
+                "target": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "sourceUUID": {
+                  "type": "string"
+                },
+                "timestamp": {
+                  "type": "string"
+                },
+                "timestampServer": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "sourceName": {
+                  "type": "string"
+                }
+              }
+            },
+            "slack": {
+              "type": "object",
+              "properties": {
+                "botAccount": {
+                  "type": "string"
+                },
+                "workspace": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "botAccount",
+                "workspace"
+              ]
+            },
+            "telegram": {
+              "type": "object",
+              "properties": {
+                "botAccount": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "botAccount"
+              ]
+            },
+            "proofmode": {
+              "type": "object",
+              "patternProperties": {
+                "^.+\\.jpg$": {
+                  "type": "object",
+                  "properties": {
+                    "pgpSignature": {
+                      "type": "string"
+                    },
+                    "pgpPublicKey": {
+                      "type": "string"
+                    },
+                    "sha256hash": {
+                      "type": "string"
+                    },
+                    "dateCreate": {
+                      "type": "string"
+                    },
+                    "proofmodeJSON": {
+                      "type": "object",
+                      "properties": {
+                        "File Hash SHA256": {
+                          "type": "string"
+                        },
+                        "Locale": {
+                          "type": "string"
+                        },
+                        "SafetyCheckCtsMatch": {
+                          "type": "string"
+                        },
+                        "Location.Provider": {
+                          "type": "string"
+                        },
+                        "IPv6": {
+                          "type": "string"
+                        },
+                        "IPv4": {
+                          "type": "string"
+                        },
+                        "Location.Accuracy": {
+                          "type": "string"
+                        },
+                        "Location.Latitude": {
+                          "type": "string"
+                        },
+                        "Language": {
+                          "type": "string"
+                        },
+                        "NetworkType": {
+                          "type": "string"
+                        },
+                        "Network": {
+                          "type": "string"
+                        },
+                        "Manufacturer": {
+                          "type": "string"
+                        },
+                        "DataType": {
+                          "type": "string"
+                        },
+                        "Hardware": {
+                          "type": "string"
+                        },
+                        "ScreenSize": {
+                          "type": "string"
+                        },
+                        "Wifi MAC": {
+                          "type": "string"
+                        },
+                        "Notes": {
+                          "type": "string"
+                        },
+                        "DeviceID": {
+                          "type": "string"
+                        },
+                        "Location.Longitude": {
+                          "type": "string"
+                        },
+                        "Location.Bearing": {
+                          "type": "string"
+                        },
+                        "SafetyCheckBasicIntegrity": {
+                          "type": "string"
+                        },
+                        "Location.Time": {
+                          "type": "string"
+                        },
+                        "File Modified": {
+                          "type": "string"
+                        },
+                        "CellInfo": {
+                          "type": "string"
+                        },
+                        "SafetyCheck": {
+                          "type": "string"
+                        },
+                        "Location.Altitude": {
+                          "type": "string"
+                        },
+                        "SafetyCheckTimestamp": {
+                          "type": "string"
+                        },
+                        "Proof Generated": {
+                          "type": "string"
+                        },
+                        "File Path": {
+                          "type": "string"
+                        },
+                        "Location.Speed": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "CellInfo",
+                        "DataType",
+                        "DeviceID",
+                        "File Hash SHA256",
+                        "File Modified",
+                        "File Path",
+                        "Hardware",
+                        "IPv4",
+                        "IPv6",
+                        "Language",
+                        "Locale",
+                        "Location.Accuracy",
+                        "Location.Altitude",
+                        "Location.Bearing",
+                        "Location.Latitude",
+                        "Location.Longitude",
+                        "Location.Provider",
+                        "Location.Speed",
+                        "Location.Time",
+                        "Manufacturer",
+                        "Network",
+                        "NetworkType",
+                        "Notes",
+                        "Proof Generated",
+                        "SafetyCheck",
+                        "SafetyCheckBasicIntegrity",
+                        "SafetyCheckCtsMatch",
+                        "SafetyCheckTimestamp",
+                        "ScreenSize",
+                        "Wifi MAC"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "dateCreate",
+                    "pgpPublicKey",
+                    "pgpSignature",
+                    "proofmodeJSON",
+                    "sha256hash"
+                  ]
+                },
+                "dateCreate": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "dateCreate"
+              ]
+            },
+            "meta": {
+              "type": "string"
+            },
+            "signature": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "proofHash": {
+                    "type": "string"
+                  },
+                  "provider": {
+                    "type": "string"
+                  },
+                  "signature": {
+                    "type": "string"
+                  },
+                  "publicKey": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "proofHash",
+                  "provider",
+                  "publicKey",
+                  "signature"
+                ]
+              }
+            },
+            "targetProvider": {
+              "type": "string"
+            },
+            "providerToken": {
+              "type": "object",
+              "properties": {
+                "organization_id": {
+                  "type": "string"
+                },
+                "collection_id": {
+                  "type": "string"
+                },
+                "author": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "identifier",
+                    "name",
+                    "type"
+                  ]
+                }
+              },
+              "required": [
+                "author",
+                "collection_id",
+                "organization_id"
+              ]
+            }
+          }
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "city": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "countryName": {
+              "type": "string"
+            },
+            "provinceState": {
+              "type": "string"
+            },
+            "streetAddress": {
+              "type": "string"
+            },
+            "GPSLatitude": {
+              "type": "string"
+            },
+            "GPSLatitudeRef": {
+              "type": "string"
+            },
+            "GPSLongitude": {
+              "type": "string"
+            },
+            "GPSLongitudeRef": {
+              "type": "string"
+            },
+            "GPSTimeStamp": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "GPSLatitude",
+            "GPSLatitudeRef",
+            "GPSLongitude",
+            "GPSLongitudeRef",
+            "GPSTimeStamp",
+            "city",
+            "countryCode",
+            "countryName",
+            "provinceState",
+            "streetAddress"
+          ]
+        },
+        "validatedSignature": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "provider": {
+                "type": "string"
+              },
+              "algorithm": {
+                "type": "string"
+              },
+              "signature": {
+                "type": "string"
+              },
+              "publicKey": {
+                "type": "string"
+              },
+              "authenticatedMessage": {
+                "type": "string"
+              },
+              "authenticatedMessageDescription": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "algorithm",
+              "authenticatedMessage",
+              "authenticatedMessageDescription",
+              "provider",
+              "publicKey",
+              "signature"
+            ]
+          }
+        }
+      },
+      "required": [
+        "author",
+        "dateCreated",
+        "description",
+        "extras",
+        "mime",
+        "name",
+        "private"
+      ]
+    },
+    "sourceId": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "key",
+        "value"
+      ]
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "contentMetadata"
+  ]
+}

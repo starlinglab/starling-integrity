@@ -1,0 +1,511 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "contentMetadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "mime": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "author": {
+          "type": "object",
+          "properties": {
+            "@type": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "@type",
+            "identifier",
+            "name"
+          ]
+        },
+        "dateCreated": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object",
+          "properties": {
+            "authsignSoftware": {
+              "type": "string"
+            },
+            "authsignDomain": {
+              "type": "string"
+            },
+            "waczVersion": {
+              "type": "string"
+            },
+            "pages": {
+              "type": "object",
+              "patternProperties": {
+                "^.+$": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "required": [
+            "authsignDomain",
+            "authsignSoftware",
+            "pages",
+            "waczVersion"
+          ]
+        },
+        "validatedSignatures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "provider": {
+                "type": "string"
+              },
+              "algorithm": {
+                "type": "string"
+              },
+              "custom": {
+                "type": "object",
+                "properties": {
+                  "hash": {
+                    "type": "string"
+                  },
+                  "created": {
+                    "type": "string"
+                  },
+                  "software": {
+                    "type": "string"
+                  },
+                  "signature": {
+                    "type": "string"
+                  },
+                  "domain": {
+                    "type": "string"
+                  },
+                  "domainCert": {
+                    "type": "string"
+                  },
+                  "timeSignature": {
+                    "type": "string"
+                  },
+                  "timestampCert": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "created",
+                  "domain",
+                  "domainCert",
+                  "hash",
+                  "signature",
+                  "software",
+                  "timeSignature",
+                  "timestampCert",
+                  "version"
+                ]
+              }
+            },
+            "required": [
+              "algorithm",
+              "custom",
+              "provider"
+            ]
+          }
+        },
+        "private": {
+          "type": "object",
+          "properties": {
+            "crawlConfigs": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "schedule": {
+                  "type": "string"
+                },
+                "config": {
+                  "type": "object",
+                  "properties": {
+                    "seeds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "scopeType": {
+                      "type": "string"
+                    },
+                    "include": {
+                      "type": "null"
+                    },
+                    "exclude": {
+                      "type": "null"
+                    },
+                    "depth": {
+                      "type": "integer"
+                    },
+                    "limit": {
+                      "type": "integer"
+                    },
+                    "extraHops": {
+                      "type": "integer"
+                    },
+                    "behaviorTimeout": {
+                      "type": "null"
+                    },
+                    "workers": {
+                      "type": "null"
+                    },
+                    "headless": {
+                      "type": "null"
+                    },
+                    "generateWACZ": {
+                      "type": "null"
+                    },
+                    "combineWARC": {
+                      "type": "null"
+                    },
+                    "logging": {
+                      "type": "null"
+                    },
+                    "behaviors": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "behaviorTimeout",
+                    "behaviors",
+                    "combineWARC",
+                    "depth",
+                    "exclude",
+                    "extraHops",
+                    "generateWACZ",
+                    "headless",
+                    "include",
+                    "limit",
+                    "logging",
+                    "scopeType",
+                    "seeds",
+                    "workers"
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "colls": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "crawlTimeout": {
+                  "type": "integer"
+                },
+                "scale": {
+                  "type": "integer"
+                },
+                "aid": {
+                  "type": "string"
+                },
+                "userid": {
+                  "type": "string"
+                },
+                "crawlCount": {
+                  "type": "integer"
+                },
+                "lastCrawlId": {
+                  "type": "string"
+                },
+                "lastCrawlTime": {
+                  "type": "string"
+                },
+                "lastCrawlState": {
+                  "type": "string"
+                },
+                "newId": {
+                  "type": "null"
+                },
+                "oldId": {
+                  "type": "null"
+                },
+                "inactive": {
+                  "type": "boolean"
+                },
+                "currCrawlId": {
+                  "type": "null"
+                },
+                "userName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "aid",
+                "colls",
+                "config",
+                "crawlCount",
+                "crawlTimeout",
+                "created",
+                "currCrawlId",
+                "id",
+                "inactive",
+                "lastCrawlId",
+                "lastCrawlState",
+                "lastCrawlTime",
+                "name",
+                "newId",
+                "oldId",
+                "scale",
+                "schedule",
+                "userName",
+                "userid"
+              ]
+            },
+            "crawlData": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "userid": {
+                  "type": "string"
+                },
+                "aid": {
+                  "type": "string"
+                },
+                "cid": {
+                  "type": "string"
+                },
+                "manual": {
+                  "type": "boolean"
+                },
+                "started": {
+                  "type": "string"
+                },
+                "finished": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string"
+                },
+                "scale": {
+                  "type": "integer"
+                },
+                "completions": {
+                  "type": "integer"
+                },
+                "stats": {
+                  "type": "object",
+                  "properties": {
+                    "done": {
+                      "type": "string"
+                    },
+                    "found": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "done",
+                    "found"
+                  ]
+                },
+                "files": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "colls": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "userName": {
+                  "type": "string"
+                },
+                "configName": {
+                  "type": "string"
+                },
+                "resources": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "path": {
+                        "type": "string"
+                      },
+                      "hash": {
+                        "type": "string"
+                      },
+                      "size": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "hash",
+                      "name",
+                      "path",
+                      "size"
+                    ]
+                  }
+                },
+                "watchIPs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "aid",
+                "cid",
+                "colls",
+                "completions",
+                "configName",
+                "files",
+                "finished",
+                "id",
+                "manual",
+                "resources",
+                "scale",
+                "started",
+                "state",
+                "stats",
+                "userName",
+                "userid",
+                "watchIPs"
+              ]
+            },
+            "additionalData": {
+              "type": "object",
+              "properties": {
+                "url_list": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "thread_ts": {
+                  "type": "string"
+                },
+                "ts": {
+                  "type": "string"
+                },
+                "client_msg_id": {
+                  "type": "string"
+                },
+                "attached_service": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "attached_ts": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer"
+                  }
+                },
+                "attached_author": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "attached_text": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "country_codes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "all_codes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "all_codes",
+                "attached_author",
+                "attached_service",
+                "attached_text",
+                "attached_ts",
+                "client_msg_id",
+                "country_codes",
+                "thread_ts",
+                "ts",
+                "url_list"
+              ]
+            }
+          },
+          "required": [
+            "additionalData",
+            "crawlConfigs",
+            "crawlData"
+          ]
+        }
+      },
+      "required": [
+        "author",
+        "dateCreated",
+        "description",
+        "extras",
+        "mime",
+        "name",
+        "private",
+        "validatedSignatures"
+      ]
+    },
+    "sourceId": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "key",
+        "value"
+      ]
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "contentMetadata",
+    "sourceId",
+    "timestamp"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "provider": {
+      "type": "string"
+    },
+    "algorithm": {
+      "type": "string"
+    },
+    "publicKey": {
+      "type": "string"
+    },
+    "signature": {
+      "type": "string"
+    },
+    "authenticatedMessage": {
+      "type": "string"
+    },
+    "authenticatedMessageDescription": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "algorithm",
+    "authenticatedMessage",
+    "authenticatedMessageDescription",
+    "provider",
+    "publicKey",
+    "signature"
+  ]
+}

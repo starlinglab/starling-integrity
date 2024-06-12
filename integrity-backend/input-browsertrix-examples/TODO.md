@@ -1,0 +1,6 @@
+- [ ] Update the `3e11cc57daf3bad8375935cad4878123acc8d769551ff90f1b1bb0dc597-meta-content.json` example in a way which would allow infering item types for the following arrays:
+    - [ ] `files`
+    - [ ] `colls`
+    - [ ] `files`
+    - [ ] `watchIPs`
+    - [ ] `all_codes`
