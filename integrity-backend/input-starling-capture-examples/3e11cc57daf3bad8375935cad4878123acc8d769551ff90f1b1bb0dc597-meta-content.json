@@ -52,7 +52,8 @@
         "signature": "3046022100fb8b03679c9c7a0f744d0effc8e9f1c14bacd03f89c3ec584aafa8677588bba7022100d080cd5e9a6bfab798fdc6f16b9a1f17c6f5715eaf8f7f5101dca43483fa4d8d",
         "publicKey": "Session:\n3059301306072a8648ce3d020106082a8648ce3d03010703420004d2c12031633a45ae1871909f129345312ea99aa9c38e865a73bc3016e8d0dad4662fe0cdb41e4e3ea1e6bb63f8ac7bf343c18db9c3b298673421888e2c43dc03\n\nSessionSignature:\n50306e825c5a439f7a0fa5f4f4ff37a4cbc452694ba13296569039099d8b619a20632a47000a898b87fc4bf2fe41d78aac9d515c3409570751c620ac3d8a58111c\n\nReceive:\n03aced43f9dddc120291f5cdf73580fbb592b5b21054ce61eb73cbaf98efcbe82e\n\nSend:\n03aced43f9dddc120291f5cdf73580fbb592b5b21054ce61eb73cbaf98efcbe82e",
         "authenticatedMessage": "ffc5a2b7dcbfba83182a589176822604971375d9ac551a2da7fe2b2b7f317ea2",
-        "authenticatedMessageDescription": "SHA256 hash of meta.json"
+        "authenticatedMessageDescription": "SHA256 hash of meta.json",
+        "deviceInfo": "Phone provisioned to John Smith at Corp Inc."
       }
     ],
     "private": {

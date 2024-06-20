@@ -28,7 +28,8 @@
             "authenticatedMessage": "f7fb4bf9c5e877d594f08f09278312dd959230b9eeb4c655c0eaee15a1a520bf",
             "authenticatedMessageDescription": "SHA256 hash of the signed file"
           }
-        }
+        },
+        "deviceInfo": "Phone provisioned to John Smith at Corp Inc."
       }
     ],
     "private": {
