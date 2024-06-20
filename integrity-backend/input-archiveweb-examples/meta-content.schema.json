@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "contentMetadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "mime": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "author": {
+          "type": "object",
+          "properties": {
+            "@type": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "@type",
+            "identifier",
+            "name"
+          ]
+        },
+        "dateCreated": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object",
+          "properties": {
+            "localsignSoftware": {
+              "type": "string"
+            },
+            "localsignPublicKey": {
+              "type": "string"
+            },
+            "localsignSignature": {
+              "type": "string"
+            },
+            "waczTitle": {
+              "type": "string"
+            },
+            "waczVersion": {
+              "type": "string"
+            },
+            "software": {
+              "type": "string"
+            },
+            "dateCrawled": {
+              "type": "string"
+            },
+            "pages": {
+              "type": "object",
+              "patternProperties": {
+                "^.+$": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "required": [
+            "dateCrawled",
+            "localsignPublicKey",
+            "localsignSignature",
+            "localsignSoftware",
+            "pages",
+            "software",
+            "waczTitle",
+            "waczVersion"
+          ]
+        },
+        "validatedSignatures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "provider": {
+                "type": "string"
+              },
+              "algorithm": {
+                "type": "string"
+              },
+              "publicKey": {
+                "type": "string"
+              },
+              "signature": {
+                "type": "string"
+              },
+              "authenticatedMessage": {
+                "type": "string"
+              },
+              "authenticatedMessageDescription": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "algorithm",
+              "authenticatedMessage",
+              "authenticatedMessageDescription",
+              "provider",
+              "publicKey",
+              "signature"
+            ]
+          }
+        },
+        "private": {
+          "type": "object",
+          "properties": {
+            "uploaderName": {
+              "type": "string"
+            },
+            "uploadFilename": {
+              "type": "string"
+            },
+            "uploadDirectory": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "uploadDirectory",
+            "uploadFilename",
+            "uploaderName"
+          ]
+        },
+        "timestamp": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "author",
+        "dateCreated",
+        "description",
+        "extras",
+        "mime",
+        "name",
+        "private",
+        "timestamp",
+        "validatedSignatures"
+      ]
+    }
+  },
+  "required": [
+    "contentMetadata"
+  ]
+}

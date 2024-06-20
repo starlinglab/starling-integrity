@@ -1,0 +1,182 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "contentMetadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "mime": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "author": {
+          "type": "object",
+          "properties": {
+            "@type": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "identifier",
+            "name",
+            "@type"
+          ]
+        },
+        "dateCreated": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object",
+          "properties": {
+            "caption": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "caption"
+          ]
+        },
+        "validatedSignatures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "provider": {
+                "type": "string"
+              },
+              "algorithm": {
+                "type": "string"
+              },
+              "signature": {
+                "type": "string"
+              },
+              "publicKey": {
+                "type": "string"
+              },
+              "authenticatedMessage": {
+                "type": "string"
+              },
+              "authenticatedMessageDescription": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "algorithm",
+              "authenticatedMessage",
+              "authenticatedMessageDescription",
+              "provider",
+              "publicKey",
+              "signature"
+            ]
+          }
+        },
+        "private": {
+          "type": "object",
+          "properties": {
+            "b64AuthenticatedMetadata": {
+              "type": "string"
+            },
+            "signatures": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "proofHash": {
+                    "type": "string"
+                  },
+                  "provider": {
+                    "type": "string"
+                  },
+                  "signature": {
+                    "type": "string"
+                  },
+                  "publicKey": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "proofHash",
+                  "provider",
+                  "publicKey",
+                  "signature"
+                ]
+              }
+            },
+            "targetProvider": {
+              "type": "string"
+            },
+            "providerToken": {
+              "type": "object",
+              "properties": {
+                "organization_id": {
+                  "type": "string"
+                },
+                "collection_id": {
+                  "type": "string"
+                },
+                "author": {
+                  "type": "object",
+                  "properties": {
+                    "@type": {
+                      "type": "string"
+                    },
+                    "identifier": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "identifier",
+                    "name",
+                    "@type"
+                  ]
+                }
+              },
+              "required": [
+                "author",
+                "collection_id",
+                "organization_id"
+              ]
+            }
+          },
+          "required": [
+            "b64AuthenticatedMetadata",
+            "providerToken",
+            "signatures",
+            "targetProvider"
+          ]
+        }
+      },
+      "required": [
+        "author",
+        "dateCreated",
+        "description",
+        "extras",
+        "mime",
+        "name",
+        "private",
+        "validatedSignatures"
+      ]
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "contentMetadata",
+    "timestamp"
+  ]
+}

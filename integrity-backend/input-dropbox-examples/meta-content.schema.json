@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "contentMetadata": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "mime": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "author": {
+          "type": "object",
+          "properties": {
+            "@type": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "@type",
+            "identifier",
+            "name"
+          ]
+        },
+        "dateCreated": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "private": {
+          "type": "object",
+          "properties": {
+            "uploaderName": {
+              "type": "string"
+            },
+            "uploadFilename": {
+              "type": "string"
+            },
+            "uploadDirectory": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "uploadDirectory",
+            "uploadFilename",
+            "uploaderName"
+          ]
+        }
+      },
+      "required": [
+        "author",
+        "dateCreated",
+        "description",
+        "extras",
+        "mime",
+        "name",
+        "private"
+      ]
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "sourceId": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "key",
+        "value"
+      ]
+    }
+  },
+  "required": [
+    "contentMetadata",
+    "sourceId",
+    "timestamp"
+  ]
+}
